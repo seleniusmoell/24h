@@ -1,0 +1,149 @@
+@page "/"
+@implements IDisposable
+@using _24hKlimatet.Models
+@using _24hKlimatet.Services
+@inject ScheduleService _schedule
+
+<PageTitle>24h Klimatet – Schema</PageTitle>
+
+<div class="home-wrapper">
+
+    <section class="now-section">
+        <div class="now-inner">
+            @{
+                var current = _schedule.GetCurrent(_now);
+                var upcoming = _schedule.GetUpcoming(_now, 2).ToList();
+            }
+
+            @if (current is not null)
+            {
+                <div class="now-current">
+                    <div class="now-label">
+                        <span class="live-dot"></span>
+                        Händer nu
+                    </div>
+                    <div class="now-card now-card--active">
+                        <div class="session-type-badge badge--@current.Type.ToString().ToLower()">@SessionTypeLabel(current.Type)</div>
+                        <h2 class="now-title">@current.Title</h2>
+                        @if (current.Subtitle is not null)
+                        {
+                            <p class="now-subtitle">@current.Subtitle</p>
+                        }
+                        <div class="now-meta">
+                            @if (current.Speaker is not null)
+                            {
+                                <span class="meta-item">@current.Speaker</span>
+                            }
+                            @if (current.Location is not null)
+                            {
+                                <span class="meta-item meta-location">@current.Location</span>
+                            }
+                            <span class="meta-item meta-time">@current.Start.ToString("HH:mm") – @current.End.ToString("HH:mm")</span>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="now-empty">
+                    <div class="now-label">Schema</div>
+                    <p>Inget pass pågår just nu.</p>
+                </div>
+            }
+
+            @if (upcoming.Count > 0)
+            {
+                <div class="upcoming-section">
+                    <div class="upcoming-label">Kommer härnäst</div>
+                    <div class="upcoming-list">
+                        @foreach (var item in upcoming)
+                        {
+                            <div class="now-card now-card--upcoming">
+                                <div class="session-type-badge badge--@item.Type.ToString().ToLower()">@SessionTypeLabel(item.Type)</div>
+                                <div class="upcoming-time">@item.Start.ToString("HH:mm")</div>
+                                <div class="upcoming-title">@item.Title</div>
+                                @if (item.Location is not null)
+                                {
+                                    <div class="upcoming-location">@item.Location</div>
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+
+    <section class="schedule-section">
+        <h2 class="schedule-heading">Hela schemat</h2>
+        <div class="schedule-list">
+            @foreach (var item in _schedule.GetAll())
+            {
+                var isPast = item.IsPast(_now);
+                var isActive = item.IsActive(_now);
+                var rowClass = isActive ? "schedule-row schedule-row--active"
+                             : isPast   ? "schedule-row schedule-row--past"
+                                        : "schedule-row";
+                <div class="@rowClass">
+                    <div class="schedule-time">
+                        <span class="time-start">@item.Start.ToString("HH:mm")</span>
+                        <span class="time-end">@item.End.ToString("HH:mm")</span>
+                    </div>
+                    <div class="schedule-body">
+                        <div class="schedule-type-badge badge--@item.Type.ToString().ToLower()">@SessionTypeLabel(item.Type)</div>
+                        <div class="schedule-title">@item.Title</div>
+                        @if (item.Subtitle is not null)
+                        {
+                            <div class="schedule-subtitle">@item.Subtitle</div>
+                        }
+                        <div class="schedule-meta">
+                            @if (item.Speaker is not null)
+                            {
+                                <span>@item.Speaker</span>
+                            }
+                            @if (item.Location is not null)
+                            {
+                                <span class="meta-location">@item.Location</span>
+                            }
+                        </div>
+                    </div>
+                    @if (isActive)
+                    {
+                        <div class="schedule-active-indicator">
+                            <span class="live-dot live-dot--small"></span>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </section>
+
+</div>
+
+@code {
+    private DateTime _now = DateTime.Now;
+    private Timer? _timer;
+
+    protected override void OnInitialized()
+    {
+        _timer = new Timer(_ => InvokeAsync(() =>
+        {
+            _now = DateTime.Now;
+            StateHasChanged();
+        }), null, TimeSpan.FromSeconds(30), TimeSpan.FromSeconds(30));
+    }
+
+    public void Dispose() => _timer?.Dispose();
+
+    private static string SessionTypeLabel(SessionType type) => type switch
+    {
+        SessionType.Opening     => "Öppning",
+        SessionType.Talk        => "Föredrag",
+        SessionType.Panel       => "Panel",
+        SessionType.Workshop    => "Workshop",
+        SessionType.Break       => "Paus",
+        SessionType.Performance => "Föreställning",
+        SessionType.Demonstration     => "Demonstration",
+        _                       => type.ToString()
+    };
+}
