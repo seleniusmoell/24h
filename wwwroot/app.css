@@ -230,13 +230,13 @@ a { color: var(--green-500); }
     margin-bottom: .15rem;
 }
 
-.badge--opening  { background: var(--green-900); color: #fff; }
-.badge--closing  { background: var(--green-900); color: #fff; }
-.badge--talk     { background: var(--green-700); color: #fff; }
-.badge--panel    { background: var(--green-500); color: #fff; }
-.badge--workshop { background: var(--earth-400); color: #fff; }
-.badge--break    { background: var(--pink-mid);  color: var(--text-secondary); border: 1px solid var(--pink-border); }
-.badge--performance { background: var(--red-500); color: #fff; }
+.badge--opening       { background: var(--green-900); color: #fff; }
+.badge--talk          { background: var(--green-700); color: #fff; }
+.badge--panel         { background: var(--green-500); color: #fff; }
+.badge--workshop      { background: var(--earth-400); color: #fff; }
+.badge--break         { background: var(--pink-mid);  color: var(--text-secondary); border: 1px solid var(--pink-border); }
+.badge--performance   { background: var(--red-500);   color: #fff; }
+.badge--demonstration { background: var(--red-700);   color: #fff; }
 
 /* ── Full schedule ── */
 .schedule-heading {
