@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Öppningsceremoni",
+    "subtitle": "Välkommen till 24h Klimatet",
+    "speaker": "Arrangörsteamet",
+    "location": "Sergels Torg",
+    "start": "2026-06-21T12:00:00",
+    "end": "2026-06-21T13:00:00",
+    "type": "Opening"
+  },
+  {
+    "title": "Keynote: Klimatläget 2026",
+    "subtitle": "Vart är vi på väg?",
+    "speaker": "Placeholder talare",
+    "location": "Någon scen",
+    "start": "2026-06-21T13:00:00",
+    "end": "2026-06-21T14:00:00",
+    "type": "Talk"
+  },
+  {
+    "title": "Panel: Vad kan vi göra?",
+    "subtitle": "Individ, organisation och politik",
+    "speaker": "Någon",
+    "location": "Nånstans",
+    "start": "2026-06-21T14:00:00",
+    "end": "2026-06-21T15:30:00",
+    "type": "Panel"
+  },
+  {
+    "title": "Utställning: Hoppets ekosystem",
+    "subtitle": "",
+    "speaker": "Placeholder ledare",
+    "location": "Vasaparken",
+    "start": "2026-06-21T16:00:00",
+    "end": "2026-06-21T18:00:00",
+    "type": "Workshop"
+  },
+  {
+    "title": "Tal: En hållbar politik",
+    "subtitle": "Vilka beslut behöver Sverige?",
+    "speaker": "Placeholder talare",
+    "location": "Vasaparken",
+    "start": "2026-06-21T18:00:00",
+    "end": "2026-06-21T19:00:00",
+    "type": "Talk"
+  },
+  
+  {
+    "title": "Siw Malqvist sjunger",
+    "subtitle": "",
+    "speaker": "Siw Malmqvist",
+    "location": "Nån scen",
+    "start": "2026-06-21T20:30:00",
+    "end": "2026-06-21T22:30:00",
+    "type": "Performance"
+  },
+  {
+    "title": "Nätverksträff & reflektion",
+    "subtitle": null,
+    "speaker": null,
+    "location": "Vasaparken",
+    "start": "2026-06-21T23:30:00",
+    "end": "2026-06-22T00:00:00",
+    "type": "Break"
+  },
+  {
+    "title": "Nattpass: Global klimatdata",
+    "subtitle": "Realtidsdata från jordens klimatsystem",
+    "speaker": "Placeholder forskare",
+    "location": "Sal B",
+    "start": "2026-06-22T00:00:00",
+    "end": "2026-06-22T01:30:00",
+    "type": "Talk"
+  },
+  {
+    "title": "Tal: Politik och klimatåtgärder",
+    "subtitle": "Vad kräver vi av beslutsfattarna?",
+    "speaker": "Placeholder talare",
+    "location": "Stora scenen",
+    "start": "2026-06-22T09:30:00",
+    "end": "2026-06-22T10:30:00",
+    "type": "Talk"
+  },
+  {
+    "title": "Barnens djurparad",
+    "subtitle": "Ansiktmålning och kostymer",
+    "speaker": "",
+    "location": "Vasaparken ställe X",
+    "start": "2026-06-22T10:30:00",
+    "end": "2026-06-22T11:30:00",
+    "type": "Workshop"
+  },
+  {
+    "title": "Den stora klimatdemonstrationen",
+    "subtitle": null,
+    "speaker": null,
+    "location": "Vasaparken",
+    "start": "2026-08-23T11:30:00",
+    "end": "2026-08-23T12:00:00",
+    "type": "Demonstration"
+  }
+]
