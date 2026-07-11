@@ -1,6 +1,6 @@
 namespace _24hKlimatet.Models;
 
-public enum SessionType { Opening, Talk, Panel, Workshop, Break, Performance, Demonstration }
+public enum SessionType { Opening, Talk, Panel, Workshop, Break, Performance, Demonstration, Exhibition }
 
 public record ScheduleItem(
     string Title,
@@ -9,7 +9,10 @@ public record ScheduleItem(
     string? Location,
     DateTime Start,
     DateTime End,
-    SessionType Type
+    SessionType Type,
+    string? Description = null,
+    string? ImageUrl = null,
+    bool AllDay = false
 )
 {
     public bool IsActive(DateTime now) => now >= Start && now < End;
