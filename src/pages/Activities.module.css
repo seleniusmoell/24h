@@ -1,0 +1,29 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.activity {
+  margin-bottom: 2.5rem;
+}
+
+.activity h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity p {
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.placeholder {
+  opacity: 0.5;
+  font-style: italic;
+}
