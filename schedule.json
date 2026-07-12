@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Utställning: Framtidens städer",
+    "subtitle": "Arkitektur och stadsplanering för klimatet",
+    "speaker": null,
+    "location": "Tält C",
+    "start": "2026-08-21T12:00:00",
+    "end": "2026-08-23T12:00:00",
+    "type": "Exhibition",
+    "description": "Modeller, illustrationer och interaktiva installationer om hur framtidens hållbara stad kan se ut. Besök när du vill under hela evenemanget.",
+    "allDay": true
+  },
+  {
+    "title": "Bokbord & litteratur",
+    "subtitle": "Klimatböcker, essäer och poesi",
+    "speaker": null,
+    "location": "Ingången, Vasaparken",
+    "start": "2026-08-21T12:00:00",
+    "end": "2026-08-23T12:00:00",
+    "type": "Exhibition",
+    "description": "Bläddra och köp böcker om klimat, natur och omställning. Representanter från förlagen finns på plats under lördagen.",
+    "allDay": true
+  },
+  {
+    "title": "Barnens skaparhörna",
+    "subtitle": "Rita, bygg och fantisera om framtiden",
+    "speaker": null,
+    "location": "Familjetältet",
+    "start": "2026-08-21T12:00:00",
+    "end": "2026-08-23T12:00:00",
+    "type": "Workshop",
+    "description": "En öppen ateljé för barn i alla åldrar. Bygg drömstäder av återvunnet material, rita djur som är hotade och skapa konst om havet.",
+    "allDay": true
+  },
+  {
+    "title": "Öppningsceremoni",
+    "subtitle": "Välkommen till 24h Klimatet",
+    "speaker": "Arrangörsteamet",
+    "location": "Sergels Torg",
+    "start": "2026-08-21T12:00:00",
+    "end": "2026-08-21T13:00:00",
+    "type": "Opening",
+    "description": "Vi inleder dygnet tillsammans med musik, tal och en gemensam utblick över de 24 timmar som väntar."
+  },
+  {
+    "title": "Keynote: Klimatläget 2026",
+    "subtitle": "Vart är vi på väg?",
+    "speaker": "Placeholder talare",
+    "location": "Någon scen",
+    "start": "2026-08-21T13:00:00",
+    "end": "2026-08-21T14:00:00",
+    "type": "Talk",
+    "description": "En genomgång av det senaste klimatläget – vad säger forskningen just nu, och vilka vägval står vi inför?"
+  },
+  {
+    "title": "Panel: Vad kan vi göra?",
+    "subtitle": "Individ, organisation och politik",
+    "speaker": "Någon",
+    "location": "Stora scenen",
+    "start": "2026-08-21T14:00:00",
+    "end": "2026-08-21T15:30:00",
+    "type": "Panel",
+    "description": "Ett panelsamtal om handlingsutrymmet på olika nivåer – från vardagliga val till politiska beslut."
+  },
+  {
+    "title": "Workshop: Bygg en klimatberättelse",
+    "subtitle": "Skriv och dela din historia",
+    "speaker": "Placeholder ledare",
+    "location": "Tält B",
+    "start": "2026-08-21T14:00:00",
+    "end": "2026-08-21T15:30:00",
+    "type": "Workshop",
+    "description": "En kreativ workshop där du får hjälp att formulera din egen berättelse om klimatkrisen och hoppet om förändring."
+  },
+  {
+    "title": "Samtal: Unga röster",
+    "subtitle": "Vad kräver nästa generation?",
+    "speaker": "Ungdomsrepresentanter",
+    "location": "Tält A",
+    "start": "2026-08-21T14:30:00",
+    "end": "2026-08-21T15:30:00",
+    "type": "Talk",
+    "description": "Tre unga aktivister berättar om sin väg in i klimatrörelsen och vad de kräver av vuxenvärlden."
+  },
+  {
+    "title": "Utställning: Hoppets ekosystem",
+    "subtitle": "",
+    "speaker": "Placeholder ledare",
+    "location": "Vasaparken",
+    "start": "2026-08-21T16:00:00",
+    "end": "2026-08-21T18:00:00",
+    "type": "Workshop"
+  },
+  {
+    "title": "Tal: En hållbar politik",
+    "subtitle": "Vilka beslut behöver Sverige?",
+    "speaker": "Placeholder talare",
+    "location": "Vasaparken",
+    "start": "2026-08-21T18:00:00",
+    "end": "2026-08-21T19:00:00",
+    "type": "Talk"
+  },
+  
+  {
+    "title": "Siw Malqvist sjunger",
+    "subtitle": "",
+    "speaker": "Siw Malmqvist",
+    "location": "Nån scen",
+    "start": "2026-08-21T20:30:00",
+    "end": "2026-08-21T22:30:00",
+    "type": "Performance"
+  },
+  {
+    "title": "Tal: Politik och klimatåtgärder",
+    "subtitle": "Vad kräver vi av beslutsfattarna?",
+    "speaker": "Placeholder talare",
+    "location": "Stora scenen",
+    "start": "2026-08-22T09:30:00",
+    "end": "2026-08-22T10:30:00",
+    "type": "Talk",
+    "description": "En genomgång av de politiska löften som gjordes – och hur verkligheten ser ut."
+  },
+  {
+    "title": "Frukostmöte: Hållbar stad",
+    "subtitle": "Stadsplanering för klimatet",
+    "speaker": "Placeholder arkitekt",
+    "location": "Tält A",
+    "start": "2026-08-22T09:30:00",
+    "end": "2026-08-22T10:30:00",
+    "type": "Talk",
+    "description": "Hur kan vi planera städer som klarar både klimatanpassning och minskade utsläpp? Exempel från Sverige och världen."
+  },
+  {
+    "title": "Barnens djurparad",
+    "subtitle": "Ansiktmålning och kostymer",
+    "speaker": "",
+    "location": "Vasaparken ställe X",
+    "start": "2026-08-22T10:30:00",
+    "end": "2026-08-22T11:30:00",
+    "type": "Workshop"
+  },
+  {
+    "title": "Den stora klimatdemonstrationen",
+    "subtitle": "Kom som du är – du behövs!",
+    "speaker": null,
+    "location": "Vasaparken",
+    "start": "2026-08-23T11:30:00",
+    "end": "2026-08-23T12:00:00",
+    "type": "Demonstration",
+    "description": "Samling kl 12:00 i Vasaparken, Stockholm. Tillsammans visar vi kraften i en folkrörelse för klimatet.",
+    "imageUrl": "images/schedule/klimatdemonstrationen.jpg"
+  }
+]
