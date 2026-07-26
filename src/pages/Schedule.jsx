@@ -41,9 +41,8 @@ export default function Schedule() {
   const days = groupByDay(schedule)
 
   return (
+    <div className={styles.wrapper}>
     <div className={styles.page}>
-      <h1>Schema</h1>
-
       {days.map(day => (
         <section key={day.label} className={styles.day}>
           <h2>{day.label}</h2>
@@ -67,6 +66,7 @@ export default function Schedule() {
           })}
         </section>
       ))}
+    </div>
     </div>
   )
 }

@@ -1,3 +1,8 @@
+.wrapper {
+  min-height: 100vh;
+  background: url('/images/background.jpg') center center / contain fixed no-repeat;
+}
+
 .page {
   max-width: 800px;
   margin: 0 auto;
@@ -7,6 +12,7 @@
 .page h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  color: #C45000;
 }
 
 .day {
@@ -15,10 +21,13 @@
 
 .day h2 {
   font-size: 1.3rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 0.8rem;
+  color: #111;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  display: inline-block;
 }
 
 .item {
@@ -29,10 +38,12 @@
   border-radius: 6px;
   position: relative;
   transition: background 0.2s;
+  background: rgba(255, 255, 255, 0.75);
+  color: #111;
 }
 
 .item:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .now {

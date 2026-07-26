@@ -3,16 +3,18 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background: rgba(0, 0, 0, 0.6);
+  background: #d25e10;
   position: sticky;
   top: 0;
   z-index: 10;
 }
 
 .title {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #fff;
+  font-family: 'FucxedCaps', sans-serif;
+  text-transform: uppercase;
 }
 
 .links {
@@ -21,9 +23,12 @@
 }
 
 .links a {
-  color: #ccc;
+  font-size: 1.2rem;
+  color: #fff;
   text-decoration: none;
   font-size: 1rem;
+  font-family: 'FucxedCaps', sans-serif;
+  text-transform: uppercase;
   transition: color 0.2s;
 }
 
