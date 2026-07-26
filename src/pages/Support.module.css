@@ -1,0 +1,77 @@
+.wrapper {
+  min-height: 100vh;
+  background: url('/images/background.jpg') center center / contain fixed no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #111;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.section ul li::before {
+  content: '— ';
+  opacity: 0.5;
+}
+
+.methods {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.method {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+}
+
+.label {
+  font-weight: bold;
+  min-width: 90px;
+  opacity: 0.7;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.value {
+  font-size: 1rem;
+}
+
+.outro {
+  margin-top: 2.5rem;
+  font-style: italic;
+  opacity: 0.7;
+}
