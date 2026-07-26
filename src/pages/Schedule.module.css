@@ -52,6 +52,11 @@
   padding-left: calc(0.8rem - 3px);
 }
 
+.music {
+  border-left: 3px solid #d25e10;
+  padding-left: calc(0.8rem - 3px);
+}
+
 .nowBadge {
   position: absolute;
   top: 0.5rem;

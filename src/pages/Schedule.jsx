@@ -49,7 +49,7 @@ export default function Schedule() {
           {day.items.map((item, i) => {
             const active = isHappeningNow(item, now)
             return (
-              <div key={i} className={`${styles.item} ${active ? styles.now : ''}`}>
+              <div key={i} className={`${styles.item} ${active ? styles.now : ''} ${item.type === 'Music' ? styles.music : ''}`}>
                 {active && <span className={styles.nowBadge}>Pågår nu</span>}
                 <div className={styles.time}>
                   {formatTime(item.start)}–{formatTime(item.end)}
