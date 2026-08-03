@@ -17,13 +17,23 @@
   text-transform: uppercase;
 }
 
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
 .links {
   display: flex;
   gap: 1.5rem;
 }
 
 .links a {
-  font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
@@ -39,4 +49,30 @@
 .active {
   color: #fff !important;
   text-decoration: underline !important;
+}
+
+@media (max-width: 700px) {
+  .burger {
+    display: block;
+  }
+
+  .links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: #d25e10;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .linksOpen {
+    display: flex;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
 }

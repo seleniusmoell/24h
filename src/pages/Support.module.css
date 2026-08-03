@@ -1,6 +1,5 @@
 .wrapper {
   min-height: 100vh;
-  background: url('/images/background.jpg') center center / contain fixed no-repeat;
   display: flex;
   align-items: center;
 }

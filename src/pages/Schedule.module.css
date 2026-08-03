@@ -1,18 +1,36 @@
 .wrapper {
+  display: flex;
   min-height: 100vh;
-  background: url('/images/background.jpg') center center / contain fixed no-repeat;
 }
 
 .page {
-  max-width: 800px;
-  margin: 0 auto;
+  width: 800px;
+  flex-shrink: 0;
   padding: 2rem;
+}
+
+.imagePanel {
+  flex: 1;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: #FFD9A0 url('/images/background.jpg') center center / contain no-repeat;
+}
+
+@media (max-width: 900px) {
+  .imagePanel {
+    display: none;
+  }
 }
 
 .page h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #C45000;
+}
+
+.h1Second {
+  margin-top: 3rem;
 }
 
 .day {
