@@ -9,7 +9,7 @@ export default function Activities() {
     return (
       <div className={styles.page}>
         <h1>Detta händer på stan</h1>
-        <p className={styles.placeholder}>Presentationer av årets aktiviteter kommer snart.</p>
+        <p className={styles.placeholder}>Presentationer av aktiviteter kommer snart.</p>
       </div>
     )
   }
