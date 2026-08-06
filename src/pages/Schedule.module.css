@@ -4,7 +4,7 @@
 }
 
 .page {
-  width: 800px;
+  width: min(800px, 100%);
   flex-shrink: 0;
   padding: 2rem;
 }
@@ -21,16 +21,49 @@
   .imagePanel {
     display: none;
   }
+
+  .page {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .page h1 {
+    font-size: 1.5rem;
+  }
+
+  .item {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .time {
+    min-width: unset;
+    font-size: 0.8rem;
+  }
 }
 
-.page h1 {
+.sectionTitle {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #C45000;
 }
 
-.h1Second {
+.sectionTitle + .sectionTitle,
+.day + .sectionTitle {
   margin-top: 3rem;
+}
+
+.hourGroup {
+  margin-bottom: 1.5rem;
+}
+
+.hourLabel {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 0.5rem;
+  padding-left: 0.2rem;
 }
 
 .day {
@@ -58,6 +91,10 @@
   transition: background 0.2s;
   background: rgba(255, 255, 255, 0.75);
   color: #111;
+}
+
+.clickable {
+  cursor: pointer;
 }
 
 .item:hover {
@@ -112,4 +149,31 @@
   font-size: 0.8rem;
   opacity: 0.55;
   margin-top: 0.25rem;
+}
+
+.chevron {
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.description {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.8;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 0.6rem;
+}
+
+.speakerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.speakerLink {
+  font-size: 0.8rem;
+  color: #d25e10;
+  text-decoration: underline;
 }

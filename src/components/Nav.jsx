@@ -8,7 +8,7 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <span className={styles.title}>24 timmar för Klimatet - liveprogram</span>
+      <NavLink to="/" className={styles.title}>24 timmar för Klimatet - liveprogram</NavLink>
 
       <button className={styles.burger} onClick={() => setOpen(o => !o)} aria-label="Meny">
         {open ? '✕' : '≡'}
