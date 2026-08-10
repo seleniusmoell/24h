@@ -10,17 +10,17 @@
     "description": "Vi samlas i en cirkel på Sergels torg för att vara redo när programmet börjar kl 13."
   },
   {
-    "title": "Invigning: kulning, jojk och allsång",
+    "title": "Kulning och jojk",
     "subtitle": null,
     "speaker": "Åsa Larsson, Nik Märak",
     "location": "Sergels torg",
     "start": "2026-08-22T13:00:00",
     "end": "2026-08-22T13:05:00",
     "type": "Opening",
-    "description": "Kulning och jojk över Sergels torg, följt av allsång."
+    "description": "Kulning och jojk över Sergels torg."
   },
   {
-    "title": "Invigning: välkomna",
+    "title": "Välkomna",
     "subtitle": "Hela Sverige cyklar tas emot",
     "speaker": null,
     "location": "Sergels torg",
@@ -30,7 +30,7 @@
     "description": "Konferencierna hälsar välkomna till manifestationen. Cyklister och resenärer från hela Sverige tas emot."
   },
   {
-    "title": "Invigning: inledningstal",
+    "title": "Inledningstal",
     "subtitle": null,
     "speaker": "Sara Nilsson Lööv, Alasdair Skelton",
     "location": "Sergels torg",
@@ -40,7 +40,7 @@
     "description": "Sara Nilsson Lööv, Rebellmammorna, och Alasdair Skelton, ordförande Researchers' Desk och professor i geokemi och petrologi, håller inledningstal."
   },
   {
-    "title": "Invigning: allsång",
+    "title": "Allsång",
     "subtitle": null,
     "speaker": "Åsa Larsson, Nik Märak",
     "location": "Sergels torg",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Vanna Rosenberg",
-    "subtitle": null,
+    "subtitle": "Skådespelerska och komiker",
     "speaker": "Vanna Rosenberg",
     "location": "Sergels torg",
     "start": "2026-08-22T13:55:00",
@@ -81,7 +81,7 @@
   },
   {
     "title": "Linnea Olsson",
-    "subtitle": null,
+    "subtitle": "Sångare och låtskrivare",
     "speaker": "Linnea Olsson",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T15:00:00",
@@ -101,7 +101,7 @@
   },
   {
     "title": "Barbara Hendricks",
-    "subtitle": null,
+    "subtitle": "Artist",
     "speaker": "Barbara Hendricks",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T15:30:00",
@@ -120,7 +120,7 @@
     "description": "Shora Esmailian, författare och kulturjournalist, om klimat, migration och klimaträttvisa."
   },
   {
-    "title": "Panelsamtal: Klimaträttvisa",
+    "title": "Klimaträttvisa",
     "subtitle": null,
     "speaker": "Teysir Subhi, Victoria Strand, Eva Forsgren",
     "location": "Sergels torg",
@@ -131,7 +131,7 @@
   },
   {
     "title": "Helen Sjöholm & Gunilla Backman",
-    "subtitle": null,
+    "subtitle": "Sångare",
     "speaker": "Helen Sjöholm, Gunilla Backman",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T16:15:00",
@@ -150,24 +150,15 @@
     "description": "Regan McEnroe, ordförande Fältbiologerna och blivande marinbiolog, om marina ekosystem. Glenn Bark, malmgeolog och talesperson för Researchers' Desk, om framtiden utifrån forskning. Nik Märak, kulturarbetare och lulesame, om visionen för kommande generationer."
   },
   {
-    "title": "Vargkvint – sång och tyst minut",
-    "subtitle": null,
+    "title": "Vargkvint, Red Rebels",
+    "subtitle": "Sång följt av gemensam tyst stund i cirkel",
     "speaker": "Vargkvint",
-    "location": "Artistscen, Sergels torg",
-    "start": "2026-08-22T16:50:00",
-    "end": "2026-08-22T17:00:00",
-    "type": "Music",
-    "description": "Sång följt av en gemensam tyst stund i cirkel."
-  },
-  {
-    "title": "Red Rebels",
-    "subtitle": null,
-    "speaker": null,
     "location": "Sergels torg",
-    "start": "2026-08-22T17:00:00",
+    "start": "2026-08-22T16:50:00",
     "end": "2026-08-22T17:10:00",
-    "type": "Culture",
-    "description": null
+    "type": "Music",
+    "categoryLabel": "MUSIK & TYST MINUT",
+    "description": "Vargkvint framför sång följt av en tyst stund i cirkel. Red Rebels processar in."
   },
   {
     "title": "Skogen tar plats",
@@ -180,8 +171,8 @@
     "description": "Jeannette Eggers, skogsforskare och klimataktivist. Bilal Chebaro, projektledare Skog – mångfald eller enfald. Lina Burnelius, klimat- och landanvändningsexpert på Skydda skogen."
   },
   {
-    "title": "Emil Jensen med band",
-    "subtitle": null,
+    "title": "Emil Jensen",
+    "subtitle": "Sångare och låtskrivare, med band",
     "speaker": "Emil Jensen",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T17:25:00",
@@ -190,7 +181,7 @@
     "description": null
   },
   {
-    "title": "Panel: Maten som lösning",
+    "title": "Maten som lösning",
     "subtitle": "Matupproret",
     "speaker": "Olga Grönvall Lund, Sébastien Boudet, Tatjana Boric Persson",
     "location": "Sergels torg",
@@ -211,7 +202,7 @@
   },
   {
     "title": "Stefan Sundström",
-    "subtitle": null,
+    "subtitle": "Musiker och låtskrivare",
     "speaker": "Stefan Sundström",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T18:40:00",
@@ -231,7 +222,7 @@
   },
   {
     "title": "Ellinor Brolin & Johan Johansson",
-    "subtitle": null,
+    "subtitle": "Artister",
     "speaker": "Ellinor Brolin, Johan Johansson",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T19:10:00",
@@ -251,7 +242,7 @@
   },
   {
     "title": "Tant Grön",
-    "subtitle": null,
+    "subtitle": "Musikgrupp",
     "speaker": "Tant Grön",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T19:45:00",
@@ -281,7 +272,7 @@
   },
   {
     "title": "Diset",
-    "subtitle": null,
+    "subtitle": "Rappgrupp",
     "speaker": "Diset",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T20:15:00",
@@ -290,7 +281,7 @@
     "description": null
   },
   {
-    "title": "Panel: Folkbildningens roll i omställningen",
+    "title": "Folkbildningens roll i omställningen",
     "subtitle": null,
     "speaker": "Sverker Sörlin, Lisa Pelling, Carmen Blanco Valer",
     "location": "Sergels torg",
@@ -301,7 +292,7 @@
   },
   {
     "title": "Staffan Koldioxidbantaren Lindberg",
-    "subtitle": null,
+    "subtitle": "Musiker",
     "speaker": "Staffan Lindberg",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T20:50:00",
@@ -321,7 +312,7 @@
   },
   {
     "title": "Lovad",
-    "subtitle": null,
+    "subtitle": "Artist",
     "speaker": "Lovad",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T21:25:00",
@@ -330,8 +321,8 @@
     "description": null
   },
   {
-    "title": "Tal: Greta Thunberg",
-    "subtitle": null,
+    "title": "Greta Thunberg",
+    "subtitle": "Klimat- och människorättsaktivist",
     "speaker": "Greta Thunberg",
     "location": "Sergels torg",
     "start": "2026-08-22T21:40:00",
@@ -342,7 +333,7 @@
   },
   {
     "title": "Trabelsi",
-    "subtitle": null,
+    "subtitle": "Artist",
     "speaker": "Trabelsi",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T21:55:00",
@@ -351,18 +342,19 @@
     "description": null
   },
   {
-    "title": "Stand-up: Ellen Schagerström",
+    "title": "Ellen Schagerström",
     "subtitle": "Marinbiolog, dykare och forskare",
     "speaker": "Ellen Schagerström",
     "location": "Sergels torg",
     "start": "2026-08-22T22:10:00",
     "end": "2026-08-22T22:15:00",
     "type": "Culture",
+    "categoryLabel": "STAND-UP",
     "description": "Ellen Schagerström är marinbiolog, dykare och forskare – och gör stand-up om sin forskning."
   },
   {
     "title": "Julia Lov",
-    "subtitle": null,
+    "subtitle": "Artist",
     "speaker": "Julia Lov",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T22:15:00",
@@ -382,7 +374,7 @@
   },
   {
     "title": "Leo Rudberg",
-    "subtitle": "Klimaträttvise­aktivist och statsvetare",
+    "subtitle": "Klimaträttviseaktivist och statsvetare",
     "speaker": "Leo Rudberg",
     "location": "Sergels torg",
     "start": "2026-08-22T22:50:00",
@@ -391,13 +383,14 @@
     "description": "Leo Rudberg, klimaträttviseaktivist och statsvetare, om vad människor kan åstadkomma tillsammans."
   },
   {
-    "title": "Spex: Rebellmammorna Östersund",
+    "title": "Rebellmammorna Östersund",
     "subtitle": null,
     "speaker": "Rebellmammorna Östersund",
     "location": "Sergels torg",
     "start": "2026-08-22T22:55:00",
     "end": "2026-08-22T23:10:00",
     "type": "Culture",
+    "categoryLabel": "SPEX",
     "description": null
   },
   {
@@ -421,44 +414,47 @@
     "description": null
   },
   {
-    "title": "Filmvisning: Strejkarna",
+    "title": "Strejkarna",
     "subtitle": null,
     "speaker": null,
     "location": "Storbildsskärm, Sergels torg",
     "start": "2026-08-22T23:40:00",
     "end": "2026-08-23T01:15:00",
     "type": "Culture",
+    "categoryLabel": "FILMVISNING",
     "description": null
   },
   {
     "title": "Strejkarna får ordet",
-    "subtitle": null,
+    "subtitle": "Utrymme för klimatstrejkarungdomar att tala",
     "speaker": null,
     "location": "Sergels torg",
     "start": "2026-08-23T01:15:00",
     "end": "2026-08-23T01:30:00",
     "type": "Talk",
-    "description": "Utrymme för klimatstrejkarungdomar att tala."
+    "description": null
   },
   {
-    "title": "Scenpoesi",
-    "subtitle": null,
+    "title": "Emma Axberg",
+    "subtitle": "Scenpoet och projektledare",
     "speaker": "Emma Axberg",
     "location": "Sergels torg",
     "start": "2026-08-23T01:30:00",
     "end": "2026-08-23T01:45:00",
     "type": "Culture",
-    "description": "Emma Axberg, scenpoet och projektledare, med kollektiv dikt."
+    "categoryLabel": "SCENPOESI",
+    "description": "Emma Axberg med kollektiv dikt, som ev. vävas samman med tacket till strejkarna."
   },
   {
     "title": "Öppen scen",
-    "subtitle": null,
+    "subtitle": "Poesi, tal, sång — alla är välkomna",
     "speaker": null,
     "location": "Sergels torg",
     "start": "2026-08-23T01:45:00",
     "end": "2026-08-23T04:30:00",
     "type": "Culture",
-    "description": "Öppen scen för alla som vill framträda – poesi, tal, sång."
+    "categoryLabel": "ÖPPEN SCEN",
+    "description": null
   },
   {
     "title": "Förflyttning till Vasaparken",
