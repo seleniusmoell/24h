@@ -1,0 +1,90 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #C45000;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionHeading {
+  font-size: 1.1rem;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.activity {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.activity h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.activity > p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.subActivities {
+  margin-top: 1.2rem;
+}
+
+.subActivity {
+  padding: 1rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.subActivity h3 {
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+  color: #C45000;
+}
+
+.subActivity p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.timedItem {
+  display: flex;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+  align-items: baseline;
+}
+
+.time {
+  min-width: 50px;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.itemTitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  opacity: 0.65;
+  margin-top: 0.2rem;
+}

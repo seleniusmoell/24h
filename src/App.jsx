@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Schedule from './pages/Schedule'
+import Torg from './pages/Torg'
 import Activities from './pages/Activities'
 import Performers from './pages/Performers'
 import Support from './pages/Support'
@@ -12,6 +13,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Schedule />} />
+          <Route path="/pa-torget" element={<Torg />} />
           <Route path="/aktiviteter" element={<Activities />} />
           <Route path="/medverkande" element={<Performers />} />
           <Route path="/stod-oss" element={<Support />} />

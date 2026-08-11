@@ -139,10 +139,38 @@
   font-weight: 600;
 }
 
+.categoryLabel {
+  color: #d25e10;
+}
+
+.speakerInline {
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.compoundLabel {
+  color: #d25e10;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.03em;
+}
+
+.subItem {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
 .subtitle {
   font-size: 0.85rem;
   opacity: 0.7;
   margin-top: 0.15rem;
+}
+
+.subtitleDark {
+  opacity: 1;
+  color: #111;
 }
 
 .meta {

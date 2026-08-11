@@ -18,6 +18,9 @@ export default function Nav() {
         <NavLink to="/" className={({ isActive }) => isActive ? styles.active : ''} onClick={close}>
           Scenprogram
         </NavLink>
+        <NavLink to="/pa-torget" className={({ isActive }) => isActive ? styles.active : ''} onClick={close}>
+          På Sergels torg
+        </NavLink>
         <NavLink to="/aktiviteter" className={({ isActive }) => isActive ? styles.active : ''} onClick={close}>
           Detta händer på stan
         </NavLink>

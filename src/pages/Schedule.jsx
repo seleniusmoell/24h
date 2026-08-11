@@ -6,6 +6,17 @@ import { nameToSlug } from './Performers'
 const STAGE_TYPES = ['Music', 'Talk', 'Panel', 'Opening', 'Culture']
 const OTHER_TYPES = ['Social', 'Workshop', 'OpenStage', 'Transition']
 
+const TYPE_LABELS = {
+  Music: 'MUSIK',
+  Talk: null,
+  Panel: 'PANELSAMTAL',
+  Opening: 'INVIGNING',
+  Culture: null,
+  Social: null,
+  Transition: null,
+  OpenStage: 'ÖPPEN SCEN',
+}
+
 function isHappeningNow(item, now) {
   return new Date(item.start) <= now && now < new Date(item.end)
 }
@@ -37,10 +48,41 @@ function groupByDayAndHour(items) {
     }))
 }
 
+function formatSpeakerList(speaker) {
+  const names = speaker.split(',').map(s => s.trim())
+  if (names.length <= 1) return speaker
+  return names.slice(0, -1).join(', ') + ' och ' + names[names.length - 1]
+}
+
+function CompoundItem({ item, now }) {
+  const active = isHappeningNow(item, now)
+  const label = item.categoryLabel || TYPE_LABELS[item.type]
+
+  return (
+    <div className={`${styles.item} ${active ? styles.now : ''}`}>
+      {active && <span className={styles.nowBadge}>Pågår nu</span>}
+      <div className={styles.content}>
+        {label && <div className={styles.compoundLabel}>{label}</div>}
+        {item.subItems.map((sub, i) => (
+          <div key={i} className={i > 0 ? styles.subItem : ''}>
+            <div className={styles.itemTitle}>
+              {sub.title}
+              {sub.speaker && <span className={styles.speakerInline}>, {formatSpeakerList(sub.speaker)}</span>}
+            </div>
+            {sub.subtitle && <div className={styles.subtitle}>{sub.subtitle}</div>}
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 function ScheduleItem({ item, now }) {
   const [expanded, setExpanded] = useState(false)
   const active = isHappeningNow(item, now)
   const hasDescription = !!item.description
+  const label = item.categoryLabel || TYPE_LABELS[item.type]
+  const showSpeaker = item.speaker && item.speaker !== item.title
 
   return (
     <div
@@ -50,11 +92,12 @@ function ScheduleItem({ item, now }) {
       {active && <span className={styles.nowBadge}>Pågår nu</span>}
       <div className={styles.content}>
         <div className={styles.itemTitle}>
+          {label && <span className={styles.categoryLabel}>{label}: </span>}
           {item.title}
+          {showSpeaker && <span className={styles.speakerInline}>, {formatSpeakerList(item.speaker)}</span>}
           {hasDescription && <span className={styles.chevron}>{expanded ? ' ▲' : ' ▼'}</span>}
         </div>
-        {item.subtitle && <div className={styles.subtitle}>{item.subtitle}</div>}
-        {item.speaker && <div className={styles.meta}>{item.speaker}</div>}
+        {item.subtitle && <div className={`${styles.subtitle} ${item.subtitleDark ? styles.subtitleDark : ''}`}>{item.subtitle}</div>}
         {expanded && (
           <div className={styles.description}>
             {item.description}
@@ -86,7 +129,9 @@ function Section({ items, now, title }) {
             <div key={hourGroup.hour} className={styles.hourGroup}>
               <h3 className={styles.hourLabel}>{hourGroup.label}</h3>
               {hourGroup.items.map((item, i) => (
-                <ScheduleItem key={i} item={item} now={now} />
+                item.subItems
+                  ? <CompoundItem key={i} item={item} now={now} />
+                  : <ScheduleItem key={i} item={item} now={now} />
               ))}
             </div>
           ))}
@@ -110,15 +155,11 @@ export default function Schedule() {
   }, [])
 
   const stageItems = schedule.filter(i => STAGE_TYPES.includes(i.type))
-  const otherItems = schedule.filter(i => OTHER_TYPES.includes(i.type))
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.page}>
         <Section items={stageItems} now={now} title="Scenprogram" />
-        {otherItems.length > 0 && (
-          <Section items={otherItems} now={now} title="Detta händer också på Sergels torg" />
-        )}
       </div>
       <div className={styles.imagePanel} />
     </div>
