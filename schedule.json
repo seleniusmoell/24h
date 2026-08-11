@@ -17,7 +17,7 @@
     "subItems": [
       {
         "title": "Kulning och jojk",
-        "speaker": "Åsa Larsson, Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak"
       },
       {
         "title": "Konferencierna hälsar välkomna",
@@ -25,12 +25,12 @@
       },
       {
         "title": "Inledningstal",
-        "speaker": "Sara Nilsson Lööv, Rebellmammorna, Alasdair Skelton, Researcher's Desk",
+        "speaker": "Sara Nilsson Lööv, Rebellmammorna, Alasdair Skelton, Researchers Desk",
         "subtitle": null
       },
       {
         "title": "Allsång",
-        "speaker": "Åsa Larsson, Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak"
       }
     ]
   },
@@ -45,7 +45,7 @@
     "description": "Tre korta tal om positiv klimatomställning: Ingmar Rentzhog, grundare We Don't Have Time. Catarina Rolfsdotter Jansson, journalist och programledare. Johan Jenny Ehrenberg, journalist, debattör och författare."
   },
   {
-    "title": "Framtidsvisioner II: Framtidsmeditation och medborgarrådet",
+    "title": "Framtidsvisioner II: Framtidsmeditation, medborgarråd och presentation av framtidsbyn.",
     "subtitle": null,
     "speaker": "Maria Österholm",
     "location": "Sergels torg",
@@ -65,7 +65,7 @@
     "description": null
   },
   {
-    "title": "Framtidsvisioner III: Beskatta superrika",
+    "title": "Framtidsvisioner III",
     "subtitle": null,
     "speaker": "Fatima Osman Abdalla, Ellen Löfgren",
     "location": "Sergels torg",
