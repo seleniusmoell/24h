@@ -201,8 +201,8 @@
     "subtitle": "Artister",
     "speaker": "Ellinor Brolin, Johan Johansson",
     "location": "Artistscen, Sergels torg",
-    "start": "2026-08-22T19:10:00",
-    "end": "2026-08-22T19:30:00",
+    "start": "2026-08-22T20:15:00",
+    "end": "2026-08-22T20:35:00",
     "type": "Music",
     "description": null
   },
@@ -251,8 +251,8 @@
     "subtitle": "Rappgrupp",
     "speaker": "Diset",
     "location": "Artistscen, Sergels torg",
-    "start": "2026-08-22T20:15:00",
-    "end": "2026-08-22T20:30:00",
+    "start": "2026-08-22T19:10:00",
+    "end": "2026-08-22T19:25:00",
     "type": "Music",
     "description": null
   },
@@ -294,6 +294,17 @@
     "start": "2026-08-22T21:25:00",
     "end": "2026-08-22T21:40:00",
     "type": "Music",
+    "description": null
+  },
+  {
+    "title": "Vanna Rosenberg",
+    "subtitle": "Skådespelerska och komiker",
+    "speaker": "Vanna Rosenberg",
+    "location": "Artistscen, Sergels torg",
+    "start": "2026-08-22T21:50:00",
+    "end": "2026-08-22T21:55:00",
+    "type": "Music",
+    "categoryLabel": "FRAMTRÄDANDE",
     "description": null
   },
   {
@@ -352,8 +363,8 @@
     "subtitle": null,
     "speaker": "Rebellmammorna Östersund",
     "location": "Sergels torg",
-    "start": "2026-08-22T22:55:00",
-    "end": "2026-08-22T23:10:00",
+    "start": "2026-08-23T01:45:00",
+    "end": "2026-08-23T02:05:00",
     "type": "Culture",
     "categoryLabel": "SPEX",
     "description": null
@@ -373,7 +384,7 @@
     "subtitle": null,
     "speaker": null,
     "location": "Storbildsskärm, Sergels torg",
-    "start": "2026-08-22T23:40:00",
+    "start": "2026-08-22T23:25:00",
     "end": "2026-08-23T01:15:00",
     "type": "Culture",
     "categoryLabel": "FILMVISNING",
@@ -395,7 +406,7 @@
     "subtitle": "Poesi, tal, sång — alla är välkomna",
     "speaker": null,
     "location": "Sergels torg",
-    "start": "2026-08-23T01:45:00",
+    "start": "2026-08-23T02:05:00",
     "end": "2026-08-23T04:30:00",
     "type": "Culture",
     "categoryLabel": "ÖPPEN SCEN",
