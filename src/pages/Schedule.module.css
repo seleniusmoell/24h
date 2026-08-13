@@ -173,6 +173,17 @@
   color: #111;
 }
 
+.comingSoon {
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.65;
+  padding: 1.5rem 0.8rem 3rem;
+  color: #111;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
 .meta {
   font-size: 0.8rem;
   opacity: 0.55;
@@ -202,6 +213,14 @@
 
 .speakerLink {
   font-size: 0.8rem;
+  color: #d25e10;
+  text-decoration: underline;
+}
+
+.descriptionLink {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
   color: #d25e10;
   text-decoration: underline;
 }

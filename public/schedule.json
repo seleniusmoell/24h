@@ -17,42 +17,55 @@
     "subItems": [
       {
         "title": "Kulning och jojk",
-        "speaker": "Åsa Larsson, Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak"
       },
       {
         "title": "Konferencierna hälsar välkomna",
-        "subtitle": "Hela Sverige cyklar tas emot. Särkilt välkomnande av rebellmammor, rebellpappor och allierade från xx orter, samt av de som cyklat hela vägen till Stockholm."
+        "subtitle": "Hela Sverige cyklar tas emot. Särkilt välkomnande av rebellmammor, rebellpappor och allierade som kommit resande från över 70 orter runt om i landet."
       },
       {
         "title": "Inledningstal",
-        "speaker": "Sara Nilsson Lööv, Rebellmammorna, Alasdair Skelton, Researcher's Desk",
+        "speaker": "Sara Nilsson Lööv, Rebellmammorna, Alasdair Skelton, Researchers Desk",
         "subtitle": null
       },
       {
         "title": "Allsång",
-        "speaker": "Åsa Larsson, Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak"
       }
     ]
   },
   {
     "title": "Framtidsvisioner I",
-    "subtitle": "Positiva exempel från omvärlden",
-    "speaker": "Ingmar Rentzhog, Catarina Rolfsdotter Jansson, Johan Jenny Ehrenberg",
+    "subtitle": null,
+    "speaker": "Johan Jenny Ehrenberg, Catarina Rolfsdotter Jansson och Ingmar Rentzhog",
     "location": "Sergels torg",
     "start": "2026-08-22T13:35:00",
     "end": "2026-08-22T13:55:00",
     "type": "Talk",
-    "description": "Tre korta tal om positiv klimatomställning: Ingmar Rentzhog, grundare We Don't Have Time. Catarina Rolfsdotter Jansson, journalist och programledare. Johan Jenny Ehrenberg, journalist, debattör och författare."
+    "categoryLabel": "FRAMTIDSVISIONER",
+    "description": null
   },
   {
-    "title": "Framtidsvisioner II: Framtidsmeditation och medborgarrådet",
+    "title": "Framtidsvisioner II: Framtidsmeditation, medborgarråd och presentation av framtidsbyn.",
     "subtitle": null,
     "speaker": "Maria Österholm",
     "location": "Sergels torg",
     "start": "2026-08-22T14:05:00",
     "end": "2026-08-22T14:30:00",
     "type": "Talk",
+    "categoryLabel": "FRAMTIDSVISIONER",
     "description": "Framtidsmeditation ledd av Maria Österholm, ingenjör och rebellmamma, följt av presentation av medborgarrådet och framtidsbyn."
+  },
+  {
+    "title": "Alla bjuds in att besöka framtidsbyn",
+    "subtitle": null,
+    "speaker": null,
+    "location": "Sergels torg",
+    "start": "2026-08-22T14:30:00",
+    "end": "2026-08-22T15:00:00",
+    "type": "Culture",
+    "categoryLabel": "PAUS I SCENPROGRAMMET",
+    "description": null
   },
   {
     "title": "Linnea Olsson",
@@ -65,13 +78,14 @@
     "description": null
   },
   {
-    "title": "Framtidsvisioner III: Beskatta superrika",
+    "title": "Framtidsvisioner III",
     "subtitle": null,
     "speaker": "Fatima Osman Abdalla, Ellen Löfgren",
     "location": "Sergels torg",
     "start": "2026-08-22T15:15:00",
     "end": "2026-08-22T15:30:00",
     "type": "Talk",
+    "categoryLabel": "FRAMTIDSVISIONER",
     "description": "Fatima Osman Abdalla, medgrundare av The Real Economy, och Ellen Löfgren, Ta Tillbaka Framtiden (TTF), om kampanjen Beskatta superrika."
   },
   {
@@ -107,7 +121,7 @@
   {
     "title": "Helen Sjöholm & Gunilla Backman",
     "subtitle": "Sångare",
-    "speaker": "Helen Sjöholm, Gunilla Backman",
+    "speaker": null,
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T16:15:00",
     "end": "2026-08-22T16:35:00",
@@ -122,18 +136,21 @@
     "start": "2026-08-22T16:35:00",
     "end": "2026-08-22T16:50:00",
     "type": "Talk",
-    "description": "Regan McEnroe, ordförande Fältbiologerna och blivande marinbiolog, om marina ekosystem. Glenn Bark, malmgeolog och talesperson för Researchers' Desk, om framtiden utifrån forskning. Nik Märak, kulturarbetare och lulesame, om visionen för kommande generationer."
+    "categoryLabel": "FRAMTIDSVISIONER",
+    "description": "Regan McEnroe, ordförande Fältbiologerna och blivande marinbiolog. Glenn Bark, malmgeolog och talesperson för Researchers' Desk. Nik Märak, kulturarbetare och lulesame."
   },
   {
     "title": "Vargkvint, Red Rebels",
     "subtitle": "Sång följt av gemensam tyst stund i cirkel",
-    "speaker": "Vargkvint",
+    "speaker": null,
     "location": "Sergels torg",
     "start": "2026-08-22T16:50:00",
     "end": "2026-08-22T17:10:00",
     "type": "Music",
     "categoryLabel": "MUSIK & TYST MINUT",
-    "description": "Vargkvint framför sång följt av en tyst stund i cirkel. Red Rebels processar in."
+    "description": "Vargkvint framför sång följt av en tyst stund i cirkel. Red Rebels ansluter.",
+    "link": "https://extinctionrebellion.se/bli-aktiv/grupper/red-rebels-sverige/",
+    "linkText": "Red Rebels Sverige"
   },
   {
     "title": "Skogen tar plats",
@@ -147,7 +164,7 @@
   },
   {
     "title": "Emil Jensen",
-    "subtitle": "Sångare och låtskrivare",
+    "subtitle": "Artist och poet",
     "speaker": "Emil Jensen",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T17:25:00",
@@ -167,14 +184,15 @@
     "description": "Olga Grönvall Lund, generalsekreterare Reformaten. Sébastien Boudet, bagare och mataktivist. Tatjana Boric Persson, rebellmamma och initiativtagare till Matupproret. Moderator: Kathrin Thelén."
   },
   {
-    "title": "Gemensam måltid",
-    "subtitle": "Knytkalas med bröd från Sébastien Boudet",
+    "title": "Knytkalas! Bagaren Sébastien Boudet bidrar med extra bröd.",
+    "subtitle": null,
     "speaker": null,
     "location": "Sergels torg",
-    "start": "2026-08-22T17:55:00",
+    "start": "2026-08-22T18:00:00",
     "end": "2026-08-22T18:40:00",
-    "type": "Social",
-    "description": "Vi intar en gemensam måltid tillsammans. Knytkalas – ta med något att dela. Bagaren Sébastien Boudet bidrar med bröd."
+    "type": "Culture",
+    "categoryLabel": "GEMENSAM MÅLTID",
+    "description": null
   },
   {
     "title": "Stefan Sundström",
@@ -191,30 +209,31 @@
     "subtitle": null,
     "speaker": "Mariam Nordmark, Samuel Jarrick",
     "location": "Sergels torg",
-    "start": "2026-08-22T18:55:00",
+    "start": "2026-08-22T19:00:00",
     "end": "2026-08-22T19:10:00",
     "type": "Culture",
+    "categoryLabel": "ALLSÅNG & SATIR",
     "description": null
   },
   {
-    "title": "Ellinor Brolin & Johan Johansson",
-    "subtitle": "Artister",
-    "speaker": "Ellinor Brolin, Johan Johansson",
+    "title": "Diset",
+    "subtitle": null,
+    "speaker": "Diset",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T19:10:00",
-    "end": "2026-08-22T19:30:00",
+    "end": "2026-08-22T19:25:00",
     "type": "Music",
     "description": null
   },
   {
     "title": "Erfarenheter från medborgarrådet",
     "subtitle": null,
-    "speaker": "Torbjörn Vennström",
+    "speaker": "Lisa Bydler",
     "location": "Sergels torg",
     "start": "2026-08-22T19:30:00",
     "end": "2026-08-22T19:45:00",
     "type": "Talk",
-    "description": "Torbjörn Vennström, Klimatriksdagen, berättar om erfarenheter från medborgarrådsprocessen."
+    "description": "Lisa Bydler berättar om erfarenheter från medborgarrådsprocessen."
   },
   {
     "title": "Tant Grön",
@@ -244,15 +263,16 @@
     "start": "2026-08-22T20:05:00",
     "end": "2026-08-22T20:15:00",
     "type": "Talk",
+    "categoryLabel": "FRAMTIDSVISIONER",
     "description": "Andrew Simms, medförfattare till The Green New Deal och medgrundare av New Weather Institute."
   },
   {
-    "title": "Diset",
-    "subtitle": "Rappgrupp",
-    "speaker": "Diset",
+    "title": "Ellinor Brolin & Johan Johansson",
+    "subtitle": "Artister",
+    "speaker": "Ellinor Brolin, Johan Johansson",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T20:15:00",
-    "end": "2026-08-22T20:30:00",
+    "end": "2026-08-22T20:35:00",
     "type": "Music",
     "description": null
   },
@@ -267,7 +287,7 @@
     "description": "Sverker Sörlin, författare och professor i miljöhistoria. Lisa Pelling, statsvetare och chef för Arena Idé. Carmen Blanco Valer, folkhögskolelärare och rebellmamma. Moderator: Frida Hylander, Klimatpsykologerna."
   },
   {
-    "title": "Staffan Koldioxidbantaren Lindberg",
+    "title": "Staffan \"Koldioxidbantaren\" Lindberg",
     "subtitle": "Musiker",
     "speaker": "Staffan Lindberg",
     "location": "Artistscen, Sergels torg",
@@ -278,13 +298,13 @@
   },
   {
     "title": "Vrida världen",
-    "subtitle": "Interaktivt pass",
+    "subtitle": null,
     "speaker": "Jonna Bornemark",
     "location": "Sergels torg",
     "start": "2026-08-22T21:05:00",
     "end": "2026-08-22T21:25:00",
     "type": "Talk",
-    "description": "Jonna Bornemark, professor i filosofi och författare, håller i ett interaktivt pass."
+    "description": "Jonna Bornemark, professor i filosofi och författare."
   },
   {
     "title": "Lovad",
@@ -294,6 +314,17 @@
     "start": "2026-08-22T21:25:00",
     "end": "2026-08-22T21:40:00",
     "type": "Music",
+    "description": null
+  },
+  {
+    "title": "Vanna Rosenberg",
+    "subtitle": "Skådespelerska och komiker",
+    "speaker": "Vanna Rosenberg",
+    "location": "Artistscen, Sergels torg",
+    "start": "2026-08-22T21:50:00",
+    "end": "2026-08-22T21:55:00",
+    "type": "Music",
+    "categoryLabel": "FRAMTRÄDANDE",
     "description": null
   },
   {
@@ -345,27 +376,18 @@
     "start": "2026-08-22T22:50:00",
     "end": "2026-08-22T22:55:00",
     "type": "Talk",
+    "categoryLabel": "BRANDTAL",
     "description": "Leo Rudberg, klimaträttviseaktivist och statsvetare, om vad människor kan åstadkomma tillsammans."
   },
   {
-    "title": "Rebellmammorna Östersund",
-    "subtitle": null,
-    "speaker": "Rebellmammorna Östersund",
-    "location": "Sergels torg",
-    "start": "2026-08-22T22:55:00",
-    "end": "2026-08-22T23:10:00",
-    "type": "Culture",
-    "categoryLabel": "SPEX",
-    "description": null
-  },
-  {
     "title": "Majvi Superstar & Lena Granfelt",
-    "subtitle": "Musik och fotokonst",
-    "speaker": "Majvi Superstar, Lena Granfelt",
+    "subtitle": null,
+    "speaker": null,
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T23:10:00",
     "end": "2026-08-22T23:25:00",
     "type": "Music",
+    "categoryLabel": "MUSIK & FOTOKONST",
     "description": null
   },
   {
@@ -373,29 +395,51 @@
     "subtitle": null,
     "speaker": null,
     "location": "Storbildsskärm, Sergels torg",
-    "start": "2026-08-22T23:40:00",
+    "start": "2026-08-22T23:25:00",
     "end": "2026-08-23T01:15:00",
     "type": "Culture",
     "categoryLabel": "FILMVISNING",
     "description": null
   },
   {
-    "title": "Emma Axberg",
-    "subtitle": "Scenpoet och projektledare",
-    "speaker": "Emma Axberg",
+    "title": "Stefan Sundström & Rebellmammorna",
+    "subtitle": null,
+    "speaker": null,
+    "location": "Storbildsskärm, Sergels torg",
+    "start": "2026-08-23T01:15:00",
+    "end": "2026-08-23T01:30:00",
+    "type": "Culture",
+    "categoryLabel": "MUSIKVIDEO",
+    "description": null
+  },
+  {
+    "title": "Rebellmammorna Östersund",
+    "subtitle": null,
+    "speaker": "Rebellmammorna Östersund",
     "location": "Sergels torg",
     "start": "2026-08-23T01:30:00",
     "end": "2026-08-23T01:45:00",
     "type": "Culture",
+    "categoryLabel": "SPEX",
+    "description": null
+  },
+  {
+    "title": "Emma Axberg",
+    "subtitle": null,
+    "speaker": "Emma Axberg",
+    "location": "Sergels torg",
+    "start": "2026-08-23T01:45:00",
+    "end": "2026-08-23T02:05:00",
+    "type": "Culture",
     "categoryLabel": "SCENPOESI",
-    "description": "Emma Axberg med kollektiv dikt, som ev. vävas samman med tacket till strejkarna."
+    "description": "Emma Axberg, Scenpoet och projektledare för One eARTh. Framför en dikt som skapats kollektivt under manifestationen. Med förinspelad musik av Filip Bagewitz."
   },
   {
     "title": "Öppen scen",
     "subtitle": "Poesi, tal, sång — alla är välkomna",
     "speaker": null,
     "location": "Sergels torg",
-    "start": "2026-08-23T01:45:00",
+    "start": "2026-08-23T02:05:00",
     "end": "2026-08-23T04:30:00",
     "type": "Culture",
     "categoryLabel": "ÖPPEN SCEN",

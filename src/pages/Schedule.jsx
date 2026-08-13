@@ -36,7 +36,11 @@ function groupByDayAndHour(items) {
     const date = new Date(item.start)
     const dayKey = date.toDateString()
     const hourKey = date.getHours()
-    if (!days[dayKey]) days[dayKey] = { label: formatDay(item.start), hours: {}, date }
+    if (!days[dayKey]) {
+      const loc = item.location || ''
+      const venue = loc.split(', ').pop()
+      days[dayKey] = { label: formatDay(item.start), location: venue, hours: {}, date }
+    }
     if (!days[dayKey].hours[hourKey]) days[dayKey].hours[hourKey] = { label: formatHour(item.start), items: [], hour: hourKey }
     days[dayKey].hours[hourKey].items.push(item)
   }
@@ -67,7 +71,7 @@ function CompoundItem({ item, now }) {
           <div key={i} className={i > 0 ? styles.subItem : ''}>
             <div className={styles.itemTitle}>
               {sub.title}
-              {sub.speaker && <span className={styles.speakerInline}>, {formatSpeakerList(sub.speaker)}</span>}
+              {sub.speaker && <span className={styles.speakerInline}>, {sub.speaker}</span>}
             </div>
             {sub.subtitle && <div className={styles.subtitle}>{sub.subtitle}</div>}
           </div>
@@ -80,7 +84,7 @@ function CompoundItem({ item, now }) {
 function ScheduleItem({ item, now }) {
   const [expanded, setExpanded] = useState(false)
   const active = isHappeningNow(item, now)
-  const hasDescription = !!item.description
+  const hasDescription = !!(item.description || item.link)
   const label = item.categoryLabel || TYPE_LABELS[item.type]
   const showSpeaker = item.speaker && item.speaker !== item.title
 
@@ -101,6 +105,11 @@ function ScheduleItem({ item, now }) {
         {expanded && (
           <div className={styles.description}>
             {item.description}
+            {item.link && (
+              <a href={item.link} target="_blank" rel="noopener noreferrer" className={styles.descriptionLink}>
+                {item.linkText || item.link}
+              </a>
+            )}
             {item.speaker && (
               <div className={styles.speakerLinks}>
                 {item.speaker.split(',').map(s => s.trim()).map(name => (
@@ -124,7 +133,7 @@ function Section({ items, now, title }) {
       <h1 className={styles.sectionTitle}>{title}</h1>
       {days.map(day => (
         <section key={day.label} className={styles.day}>
-          <h2>{day.label}</h2>
+          <h2>{day.label}{day.location ? `, ${day.location}` : ''}</h2>
           {day.hours.map(hourGroup => (
             <div key={hourGroup.hour} className={styles.hourGroup}>
               <h3 className={styles.hourLabel}>{hourGroup.label}</h3>
@@ -160,6 +169,7 @@ export default function Schedule() {
     <div className={styles.wrapper}>
       <div className={styles.page}>
         <Section items={stageItems} now={now} title="Scenprogram" />
+        <p className={styles.comingSoon}>Program för aktiviteter och scen i Vasaparken söndagen 23 augusti kommer inom kort.</p>
       </div>
       <div className={styles.imagePanel} />
     </div>

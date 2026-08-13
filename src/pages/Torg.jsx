@@ -6,23 +6,28 @@ const TIMED_TYPES = ['Social', 'Transition']
 const activities = [
   {
     name: 'Framtidsbyn',
-    description: 'Den 22 augusti tar vi klivet in i framtiden, hela vägen fram till 2045. I vår framtidsby använder vi oss av cirkulär ekonomi, decentralisering och nedväxt för att säkra hälsa, fred, hållbarhet och klimaträttvisa, och för att främja både kulturell och biologisk mångfald. Välkomna att besöka den gröna framtid vi längtar efter, där vi alla ryms inom planetens gränser.',
+    nameDetail: 'kl 14–21',
+    description: 'Den 22 augusti tar vi klivet in i framtiden, hela vägen fram till 2045. I vår framtidsby använder vi oss av cirkulär ekonomi för att hushålla med planetens resurser, vi organiserar oss på ett decentraliserat sätt och vi främjar nedväxt för att säkra hälsa, fred, hållbarhet och klimaträttvisa. Där ser vi alla människor som lika värda, skapande och kreativa — därför förespråkar vi folkbildande lärande och kroppsglädje, där människor lär sig med hjälp av alla sinnen. Men inte minst bejakar vi omsorg om varandra och om naturen, samt främjar både kulturell och biologisk mångfald.\n\nVälkomna att besöka den gröna och rättvisa framtid vi längtar efter och engagerar oss i för att skapa, där vi alla ryms inom planetens gränser!',
     subActivities: [
-      {
-        name: 'Ceremoniplats',
-        description: 'Vi som tillsammans skapar 24-timmar värnar om planeten och manar alla att behandla vår natur och omgivning med respekt. Vid ceremoniplatsen finner ni sådant som representerar det vi försvarar: vatten, eld, jord, frön, grenar, blommor, stenar, snäckor, med mera. En slags tacksamhetens plats till Moder Jord och de gåvor som vi får ta del av.',
-      },
-      {
-        name: 'Duvan – konstruerad av Jonas Nyhav',
-        description: 'En fredsduva lever vidare efter Scouternas firande av kungen på hans 80-årsdag och bärs vidare till Vasaparken för att delta på den stora klimatdemonstrationen. Freden är ständigt aktuell, inte minst i 2045.',
-      },
-      {
-        name: 'Hoppets ekosystem',
-        description: 'Ett textilt artivistiskt initiativ som lanserades i Latinamerika och sedan förra året slagit rot även i Sverige. Dess avsikt är att med hjälp av återbrukstextilier, nål och tråd väcka naturkänslor hos den som skapar och hos åskådarna, samt hålla hoppet om att det går att påverka vid liv. Samlingen består av broderade och applicerade bonader skapade av miljöengagerade och passionerade, textila artivister över hela landet.',
-      },
       {
         name: 'Hoppets vimplar',
         description: 'Är c.a hundratals vimplar, skapade av dussintals Rebellmammor, Rebellpappor och allierade på fyrtio olika orter över hela landet. Ända från Piteå till Malmö och från Bohusläns skärgård till Öland och Gotland. Många av dem bär hoppfulla broderade eller ritade budskap som skall påminna oss om det vi värnar om och engagerar oss i.',
+      },
+      {
+        name: 'Portalen',
+        description: 'Välkommen 19 år framåt i tiden till år 2045. Här har vi kommit längre i skapandet av den framtid vi önskar till våra nu vuxna barn och till Moder Jord. Biljetter och kartor finns för att vägleda dig i vårt Fred och Framtidsmuseum.',
+      },
+      {
+        name: 'Rebellmammor och Rebellpappor',
+        description: 'Sticka, sy, brodera, snacka och lär dig mer om den snabbast växande folkrörelsen. Här kan du hitta vårt manifest och olika material. Kanske hittar du också gemenskap, kraft och mod. Vilka frågor brinner du för? Bidrar du bäst i demonstrationer eller bakom kulisserna? OBS: föräldraskap är inget krav för att kalla sig rebellmamma eller rebellpappa.',
+      },
+      {
+        name: 'Researchers Desk',
+        description: 'Forskare med expertis och engagemang vägleder, resonerar och bjuder in till samtal. Du hittar oss vid vårt bord i Framtidsbyn, men även på språng bland alla andra aktiviteter. Du känner igen oss på våra tröjor. Haffa gärna någon av oss för att fråga eller prata om klimatet.',
+      },
+      {
+        name: 'Skogen',
+        description: 'Välkommen till vår skogshörna, där du kan få lära dig mer om artkunskap, biologisk mångfald och framtidens skogsbruk. Lär dig om skogens betydelse för samerna, ta del av rörligt material och delta aktivt genom att svara på frågor eller göra egna teckningar av olika arter. Passar både barn och vuxna!',
       },
       {
         name: 'Seglen',
@@ -34,11 +39,11 @@ const activities = [
       },
       {
         name: 'Barntältet',
-        description: 'Så ett frö av hopp, besök utrotningshotade gosedjur, pyssla och mys.',
+        description: 'I barntältet kan du besöka utrotningshotade gosedjur, pyssla, mysa. Du kan också skapa din alldeles egna Rebellnalle och så ett eget frö av hopp att ta med dig hem. Hoppet gror och växer precis som fröet gror och växer till en vacker blomma.',
       },
       {
         name: 'Halsdukar',
-        description: 'Inför Sveriges Overshoot Day den 21 april 2024, dagen då vi i Sverige hade förbrukat det årets budget av förnybara resurser, stickade rebellmammor och allierade över hela landet en 4,2 km. lång röd halsduk. Detta för att markera en röd gräns för klimatet och uppmaning, särskilt till politiker att agera med kraftfulla åtgärder för att motverka klimatförändringarna. Nu har de röda halsdukarna blivit Rebellmammornas signum.',
+        description: 'Inför Sveriges Overshoot Day den 21 april 2024, dagen då vi i Sverige hade förbrukat det årets budget av förnybara resurser, stickade rebellmammor och allierade över hela landet en 4,2 km. lång röd halsduk. Detta för att markera en röd gräns för klimatet och en uppmaning, särskilt till politiker, att agera med kraftfulla åtgärder för att motverka klimatförändringarna. Nu har de röda halsdukarna blivit Rebellmammornas signum.',
       },
       {
         name: 'Kiosken',
@@ -49,12 +54,12 @@ const activities = [
         description: 'I tänkartältet finns plats för eftertanke. Stig på och fundera över allt du upplevt, och undersök dina känslor kring klimatkrisen och den gröna omställningen. Här finns möjlighet att skriva brev till framtiden, att i Sorgelådan lämna bakom dig sådant du inte önskar ta med in i framtiden och att skriva Önskelappar med dina önskningar för 2045 som får pryda Tänkartältets tak.',
       },
       {
-        name: 'Portalen',
-        description: 'Välkommen 19 år framåt i tiden till år 2045. Här har vi kommit längre i skapandet av den framtid vi önskar till våra nu vuxna barn och till Moder Jord. Biljetter och kartor finns för att vägleda dig i vårt Fred och Framtidsmuseum.',
+        name: 'Ceremoniplats',
+        description: 'Vi som tillsammans skapar 24 h värnar om planeten och manar alla att behandla vår natur och omgivning med respekt. Vid ceremoniplatsen finner ni sådant som representerar det vi försvarar: vatten, eld, jord, frön, grenar, blommor, stenar, snäckor, med mera. En slags tacksamhetens plats till Moder Jord och de gåvor som vi får ta del av.',
       },
       {
-        name: 'Skogsdelen',
-        description: 'Välkommen till vår skogshörna, där du kan få lära dig mer om artkunskap, biologisk mångfald och framtidens skogsbruk. Lär dig om skogens betydelse för samerna, ta del av rörligt material och delta aktivt genom att svara på frågor eller göra egna teckningar av olika arter. Passar både barn och vuxna!',
+        name: 'Duvan',
+        description: 'En fredsduva lever vidare efter Scouternas firande av kungen på hans 80-årsdag och bärs vidare till Vasaparken för att delta på den stora klimatdemonstrationen. Freden är ständigt aktuell, inte minst i 2045. Konstruerad av Jonas Nyhav.',
       },
       {
         name: 'Reparationscafé',
@@ -63,6 +68,10 @@ const activities = [
       {
         name: 'Antirasistisk valstuga',
         description: 'En oas att vila i när högernationalistiska vindar blåser. I vår mobila tryckverkstad kan du skapa en egen affisch, vimpel eller flagga. Fyll dem med drömmar om en bättre framtid. Hur ser din utopi för 2045 ut?',
+      },
+      {
+        name: 'Hoppets ekosystem',
+        description: 'Ett textilt artivistiskt initiativ som lanserades i Latinamerika och sedan förra året slagit rot även i Sverige. Dess avsikt är att med hjälp av återbrukstextilier, nål och tråd väcka naturkänslor hos den som skapar och hos åskådarna, samt hålla hoppet om att det går att påverka vid liv. Samlingen består av broderade och applicerade bonader skapade av miljöengagerade och passionerade, textila artivister över hela landet.',
       },
       {
         name: 'Folkbildningshörna',
@@ -77,18 +86,11 @@ const activities = [
         description: 'På Lowtechs station kan man testa att sy på maskin – med hjälp av en cykel!',
       },
       {
-        name: 'Greenpeace verkstad',
-        description: null, // beskrivning kommer
-      },
-      {
-        name: 'Researchers Desk',
-        description: 'Forskare med expertis och engagemang vägleder, resonerar och bjuder in till samtal.',
-      },
-      {
-        name: 'Rebellmammor och Rebellpappor',
-        description: 'Sticka, sy, brodera, snacka och lär dig mer om den snabbast växande folkrörelsen. Här kan du hitta vårt manifest och olika material. Kanske hittar du också gemenskap, kraft och mod. Vilka frågor brinner du för? Bidrar du bäst i demonstrationer eller bakom kulisserna? OBS: föräldraskap är inget krav för att kalla sig rebellmamma eller rebellpappa.',
+        name: 'Klimatverkstad',
+        description: 'Få inspiration och tid att tillsammans skapa det du vill bära i den stora klimatdemonstrationen. Skyltar, banners, huvudbonader mm. Greenpeace är med och bidrar med värdar och material i en makerspace fylld av kreativitet, gemenskap och handlingskraft.',
       },
     ],
+    closing: 'Förutom värdar på de olika platserna ovan finns outreach som hjälper till att guida i dagen och framtiden. Framtidsbyn befolkas även av allierade med framtidsvisioner och kunskap om bland annat Sapmi, matsystem, boende, litteratur, klimatpsykologi, Latinamerika, demokrati, fred och mänskliga rättigheter.',
   },
 ]
 
@@ -111,8 +113,13 @@ export default function Torg() {
 
       {activities.map((a, i) => (
         <article key={i} className={styles.activity}>
-          <h2>{a.name}</h2>
-          {a.description && <p>{a.description}</p>}
+          <h2>
+            {a.name}
+            {a.nameDetail && <span className={styles.nameDetail}> {a.nameDetail}</span>}
+          </h2>
+          {a.description && a.description.split('\n\n').map((para, j) => (
+            <p key={j}>{para}</p>
+          ))}
           {a.subActivities && (
             <div className={styles.subActivities}>
               {a.subActivities.map((sub, j) => (
@@ -123,6 +130,7 @@ export default function Torg() {
               ))}
             </div>
           )}
+          {a.closing && <p className={styles.closing}>{a.closing}</p>}
         </article>
       ))}
 

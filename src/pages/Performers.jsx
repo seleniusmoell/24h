@@ -6,6 +6,11 @@ export function nameToSlug(name) {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-zåäö0-9-]/g, '')
 }
 
+const DESCRIPTIONS = {
+  'Andrew Simms': 'Andrew Simms is an author, political economist and campaigner. He devised Earth Overshoot Day, co-authored the original Green New Deal, and jointly proposed the Fossil Fuel Non Proliferation Treaty. He is co-director of the New Weather Institute, assistant director of Scientists for Global Responsibility, a research associate at the University of Sussex.',
+  'Vanna Rosenberg': 'Vanna Rosenberg är en mångsidig kulturskapare inom film, teater, barnlitteratur och musik, bl a känd från humorkollektivet Kvarteret Skatan. Hon har skrivit om fantasins kraft i mörka tider och har ett starkt engagemang för barns rätt till trygghet, lek och frihet.',
+  'Fatima Osman Abdalla': 'Mamma till Noah, medgrundare av The Real Economy och Kincentric Justice, rektor på Arenaakademin, dansare, medresenär här på jorden, tillhörande Kinani och Hadad-folket från Norra Sudan.',
+}
 
 export default function Performers() {
   const [performers, setPerformers] = useState([])
@@ -47,7 +52,7 @@ export default function Performers() {
       {performers.map((p, i) => (
         <article key={i} id={nameToSlug(p.name)} className={styles.activity}>
           <h2>{p.name}</h2>
-          <p>{p.role}</p>
+          <p>{DESCRIPTIONS[p.name] || p.role}</p>
         </article>
       ))}
     </div>
