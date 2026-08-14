@@ -456,24 +456,14 @@
     "description": "Vi förflyttar oss gemensamt från Sergels torg till Vasaparken för programmet på söndagsmorgonen."
   },
   {
-    "title": "Scenen öppnar",
-    "subtitle": null,
-    "speaker": null,
+    "type": "Culture",
     "location": "Vasaparken",
     "start": "2026-08-23T10:15:00",
-    "end": "2026-08-23T10:20:00",
-    "type": "Culture",
-    "description": null
-  },
-  {
-    "title": "Konferencierarna öppnar scenen och tackar alla som arrangerat",
-    "subtitle": null,
-    "speaker": null,
-    "location": "Vasaparken",
-    "start": "2026-08-23T10:20:00",
     "end": "2026-08-23T10:30:00",
-    "type": "Culture",
-    "description": null
+    "categoryLabel": "SCENEN ÖPPNAR",
+    "subItems": [
+      { "title": "Konferencierarna öppnar scenen och tackar alla som arrangerat" }
+    ]
   },
   {
     "title": "Kommando Nötskrika",
@@ -486,14 +476,15 @@
     "description": "Kommando Nötskrika bildades 2025 i Stockholm och spelar nån sorts vispunk/grunge med poetiska och apokalyptiska texter som handlar om natur, miljö och klimat. Bara egna låtar!"
   },
   {
-    "title": "Mattias Goldman",
+    "title": "Mattias Goldman - \"Klimatkampens kinderägg\"",
     "subtitle": null,
-    "speaker": "Mattias Goldman",
+    "speaker": null,
     "location": "Vasaparken",
     "start": "2026-08-23T10:45:00",
     "end": "2026-08-23T11:00:00",
     "type": "Talk",
-    "description": null
+    "categoryLabel": "TAL",
+    "description": "Mattias Goldman, lösningsorienterad klimatlobbyist, vill göra omställningen lätt, lustfylld och lönsam - och påminner våra politiker om att vi redan beslutat att förorenaren ska betala. Det är dags nu!"
   },
   {
     "title": "Saga Gärde",
@@ -504,7 +495,7 @@
     "end": "2026-08-23T11:05:00",
     "type": "Culture",
     "categoryLabel": "POESI",
-    "description": "Läser en dikt ur Hedvig Fischers debut \"Kortsiktig; riktning\". Obs! Inväntar bekräftelse."
+    "description": "Skådespelaren och regissören Saga Gärde läser en dikt ur Hedvig Fischers debut från i år, ”Kortsiktig; riktning”."
   },
   {
     "title": "Teatergruppen Kairos",
@@ -541,14 +532,15 @@
     "description": null
   },
   {
-    "title": "Avslutningstal 24h",
+    "title": "William Grönlund, Rebellpapporna",
     "subtitle": null,
     "speaker": "William Grönlund, Rebellpapporna",
     "location": "Vasaparken",
     "start": "2026-08-23T11:50:00",
     "end": "2026-08-23T11:55:00",
     "type": "Talk",
-    "description": "Jag är folkhögskollärare, klimataktivist och djupt oroad förälder. Grundare av \"klimatsjuk\" och var med och organiserade den första 24-timmarssittning i Örebro 2024."
+    "categoryLabel": "AVSLUTNINGSTAL 24h",
+    "description": "William Grönlund är folkhögskollärare, klimataktivist och djupt oroad förälder. Grundare av \"klimatsjuk\" och var med och organiserade den första 24-timmarssittning i Örebro 2024."
   },
   {
     "title": "Demo-samling",
