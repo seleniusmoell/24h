@@ -35,26 +35,26 @@
     ]
   },
   {
-    "title": "Framtidsvisioner I",
+    "title": "Johan Jenny Ehrenberg, Catarina Rolfsdotter Jansson och Ingmar Rentzhog",
     "subtitle": null,
     "speaker": "Johan Jenny Ehrenberg, Catarina Rolfsdotter Jansson och Ingmar Rentzhog",
     "location": "Sergels torg",
     "start": "2026-08-22T13:35:00",
     "end": "2026-08-22T13:55:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
+    "categoryLabel": "FRAMTIDSVISIONER I",
     "description": null
   },
   {
-    "title": "Framtidsvisioner II: Framtidsmeditation, medborgarråd och presentation av framtidsbyn.",
+    "title": "Framtidsmeditation, Rådslag om ett gott liv och presentation av framtidsbyn.",
     "subtitle": null,
     "speaker": "Maria Österholm",
     "location": "Sergels torg",
     "start": "2026-08-22T14:05:00",
     "end": "2026-08-22T14:30:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
-    "description": "Framtidsmeditation ledd av Maria Österholm, ingenjör och rebellmamma, följt av presentation av medborgarrådet och framtidsbyn."
+    "categoryLabel": "FRAMTIDSVISIONER II",
+    "description": "Framtidsmeditation ledd av Maria Österholm, ingenjör och rebellmamma, följt av presentation av Rådslag om ett gott liv och framtidsbyn."
   },
   {
     "title": "Alla bjuds in att besöka framtidsbyn",
@@ -78,14 +78,14 @@
     "description": null
   },
   {
-    "title": "Framtidsvisioner III",
+    "title": "Fatima Osman Abdalla, Ellen Löfgren",
     "subtitle": null,
     "speaker": "Fatima Osman Abdalla, Ellen Löfgren",
     "location": "Sergels torg",
     "start": "2026-08-22T15:15:00",
     "end": "2026-08-22T15:30:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
+    "categoryLabel": "FRAMTIDSVISIONER III",
     "description": "Fatima Osman Abdalla, medgrundare av The Real Economy, och Ellen Löfgren, Ta Tillbaka Framtiden (TTF), om kampanjen Beskatta superrika."
   },
   {
@@ -129,14 +129,14 @@
     "description": null
   },
   {
-    "title": "Framtidsvisioner IV",
+    "title": "Regan McEnroe, Glenn Bark, Nik Märak",
     "subtitle": "Hav, mark och framtid",
     "speaker": "Regan McEnroe, Glenn Bark, Nik Märak",
     "location": "Sergels torg",
     "start": "2026-08-22T16:35:00",
     "end": "2026-08-22T16:50:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
+    "categoryLabel": "FRAMTIDSVISIONER IV",
     "description": "Regan McEnroe, ordförande Fältbiologerna och blivande marinbiolog. Glenn Bark, malmgeolog och talesperson för Researchers' Desk. Nik Märak, kulturarbetare och lulesame."
   },
   {
@@ -184,7 +184,7 @@
     "description": "Olga Grönvall Lund, generalsekreterare Reformaten. Sébastien Boudet, bagare och mataktivist. Tatjana Boric Persson, rebellmamma och initiativtagare till Matupproret. Moderator: Kathrin Thelén."
   },
   {
-    "title": "Knytkalas! Bagaren Sébastien Boudet bidrar med extra bröd.",
+    "title": "Picknick/knytkalas! Bagaren Sébastien Boudet bidrar med extra bröd.",
     "subtitle": null,
     "speaker": null,
     "location": "Sergels torg",
@@ -192,7 +192,7 @@
     "end": "2026-08-22T18:40:00",
     "type": "Culture",
     "categoryLabel": "GEMENSAM MÅLTID",
-    "description": null
+    "description": "Att dela mat med varandra är ett fint sätt att bygga gemenskap och skapa den omtänksamma och hållbara värld vi kämpar för. Bidra gärna med något litet till vår gemensamma måltid som du kan dela med några fler."
   },
   {
     "title": "Stefan Sundström",
@@ -226,14 +226,14 @@
     "description": null
   },
   {
-    "title": "Erfarenheter från medborgarrådet",
+    "title": "Erfarenheter från Rådslag om ett gott liv",
     "subtitle": null,
     "speaker": "Lisa Bydler",
     "location": "Sergels torg",
     "start": "2026-08-22T19:30:00",
     "end": "2026-08-22T19:45:00",
     "type": "Talk",
-    "description": "Lisa Bydler berättar om erfarenheter från medborgarrådsprocessen."
+    "description": "Lisa Bydler berättar om erfarenheter från Rådslag om ett gott liv."
   },
   {
     "title": "Tant Grön",
@@ -256,18 +256,18 @@
     "description": "Fredrika Fabri, läkare i geriatrik och aktiv i Hälso- och sjukvårdspersonal för Extinction Rebellion (HSXR)."
   },
   {
-    "title": "Framtidsvisioner V",
+    "title": "Andrew Simms",
     "subtitle": null,
     "speaker": "Andrew Simms",
     "location": "Sergels torg",
     "start": "2026-08-22T20:05:00",
     "end": "2026-08-22T20:15:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
+    "categoryLabel": "FRAMTIDSVISIONER V",
     "description": "Andrew Simms, medförfattare till The Green New Deal och medgrundare av New Weather Institute."
   },
   {
-    "title": "Ellinor Brolin & Johan Johansson",
+    "title": "Ellinor Brolin, Johan Johansson",
     "subtitle": "Artister",
     "speaker": "Ellinor Brolin, Johan Johansson",
     "location": "Artistscen, Sergels torg",
@@ -462,7 +462,7 @@
     "end": "2026-08-23T10:30:00",
     "categoryLabel": "SCENEN ÖPPNAR",
     "subItems": [
-      { "title": "Konferencierarna öppnar scenen och tackar alla som arrangerat" }
+      { "title": "Konferencierarna öppnar scenen" }
     ]
   },
   {
@@ -504,8 +504,7 @@
     "location": "Vasaparken",
     "start": "2026-08-23T11:05:00",
     "end": "2026-08-23T11:25:00",
-    "type": "Culture",
-    "categoryLabel": "FRAMTRÄDANDE",
+    "type": "Music",
     "description": "Scenkonstföreningen \"Kairos – nu är den rätta tiden\" från Östergötland skapar angelägna föreställningar i kollektiva, konstnärliga processer. Vårt scenprogram genomförs delvis i samarbete med Opera Vildmark från Norrbotten. Vårt motto är Tillsammans är enda sättet.",
     "link": "https://kairostid.nu",
     "linkText": "kairostid.nu"
@@ -519,7 +518,7 @@
     "end": "2026-08-23T11:35:00",
     "type": "Talk",
     "categoryLabel": "TAL & SÅNG",
-    "description": "Tal 3 min + sång/allsång."
+    "description": "Pia Björstrand, ordförande End Ecocide Sweden, försvarsadvokat och rebellmamma."
   },
   {
     "title": "Isabella Lundgren",
