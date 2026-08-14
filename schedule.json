@@ -318,7 +318,7 @@
   },
   {
     "title": "Vanna Rosenberg",
-    "subtitle": "Skådespelerska och komiker",
+    "subtitle": "Sångerska, skådespelerska och komiker",
     "speaker": "Vanna Rosenberg",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T21:50:00",
@@ -421,7 +421,7 @@
     "end": "2026-08-23T01:45:00",
     "type": "Culture",
     "categoryLabel": "SPEX",
-    "description": null
+    "description": "Några rebellmammor i Östersund var så ledsna över planetens tillstånd att de började göra humor av skiten. Några korta filmer med 0 kronor i budget blev resultatet. Titta och njut!"
   },
   {
     "title": "Emma Axberg",
@@ -483,7 +483,7 @@
     "start": "2026-08-23T10:30:00",
     "end": "2026-08-23T10:45:00",
     "type": "Music",
-    "description": "10 minuter / 2–3 låtar."
+    "description": "Kommando Nötskrika bildades 2025 i Stockholm och spelar nån sorts vispunk/grunge med poetiska och apokalyptiska texter som handlar om natur, miljö och klimat. Bara egna låtar!"
   },
   {
     "title": "Mattias Goldman",
@@ -515,7 +515,9 @@
     "end": "2026-08-23T11:25:00",
     "type": "Culture",
     "categoryLabel": "FRAMTRÄDANDE",
-    "description": "20 minuter."
+    "description": "Scenkonstföreningen \"Kairos – nu är den rätta tiden\" från Östergötland skapar angelägna föreställningar i kollektiva, konstnärliga processer. Vårt scenprogram genomförs delvis i samarbete med Opera Vildmark från Norrbotten. Vårt motto är Tillsammans är enda sättet.",
+    "link": "https://kairostid.nu",
+    "linkText": "kairostid.nu"
   },
   {
     "title": "Pia Björstrand",
@@ -546,7 +548,7 @@
     "start": "2026-08-23T11:50:00",
     "end": "2026-08-23T11:55:00",
     "type": "Talk",
-    "description": null
+    "description": "Jag är folkhögskollärare, klimataktivist och djupt oroad förälder. Grundare av \"klimatsjuk\" och var med och organiserade den första 24-timmarssittning i Örebro 2024."
   },
   {
     "title": "Demo-samling",
