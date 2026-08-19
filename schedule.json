@@ -17,7 +17,8 @@
     "subItems": [
       {
         "title": "Kulning och jojk",
-        "speaker": "Åsa Larsson och Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak",
+        "description": "Åsa (Resmiranda) Larsson och Nik Märak inviger manifestationen med kulning och jojk."
       },
       {
         "title": "Konferencierna hälsar välkomna",
@@ -30,7 +31,8 @@
       },
       {
         "title": "Allsång",
-        "speaker": "Åsa Larsson och Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak",
+        "description": "Vi sjunger tillsammans! Åsa (Resmiranda) Larsson leder allsången, Nik Märak väver in jojk och Staffan Lindberg kompar på gitarr."
       }
     ]
   },
