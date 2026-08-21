@@ -32,3 +32,15 @@
   opacity: 0.85;
   margin-top: 0.4rem;
 }
+
+.section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.section h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  color: #C45000;
+}

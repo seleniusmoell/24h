@@ -1,0 +1,83 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #C45000;
+}
+
+.activity {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.activity h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  opacity: 0.65;
+  margin-bottom: 0.2rem;
+}
+
+.location {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #d25e10;
+  margin-bottom: 0.8rem;
+}
+
+.activity > p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.days {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.day {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.dayLabel {
+  min-width: 140px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.dayTimes {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .day {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .dayLabel {
+    min-width: unset;
+  }
+}

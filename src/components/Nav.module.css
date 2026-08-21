@@ -9,6 +9,10 @@
   z-index: 10;
 }
 
+.torgNav {
+  background: #6B4257;
+}
+
 .title {
   font-size: 1.6rem;
   font-weight: bold;
@@ -76,4 +80,8 @@
   .title {
     font-size: 1.1rem;
   }
+}
+
+.torgNav .links {
+  background: #6B4257;
 }

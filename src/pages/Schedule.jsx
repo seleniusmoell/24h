@@ -34,11 +34,11 @@ function groupByDayAndHour(items) {
   const days = {}
   for (const item of items) {
     const date = new Date(item.start)
-    const dayKey = date.toDateString()
+    const loc = item.location || ''
+    const venue = loc.split(', ').pop()
+    const dayKey = date.toDateString() + '|' + venue
     const hourKey = date.getHours()
     if (!days[dayKey]) {
-      const loc = item.location || ''
-      const venue = loc.split(', ').pop()
       days[dayKey] = { label: formatDay(item.start), location: venue, hours: {}, date }
     }
     if (!days[dayKey].hours[hourKey]) days[dayKey].hours[hourKey] = { label: formatHour(item.start), items: [], hour: hourKey }
@@ -58,6 +58,26 @@ function formatSpeakerList(speaker) {
   return names.slice(0, -1).join(', ') + ' och ' + names[names.length - 1]
 }
 
+function CompoundSubItem({ sub, isFirst }) {
+  const [expanded, setExpanded] = useState(false)
+  const hasDescription = !!sub.description
+
+  return (
+    <div className={isFirst ? '' : styles.subItem}>
+      <div
+        className={`${styles.itemTitle} ${hasDescription ? styles.clickable : ''}`}
+        onClick={() => hasDescription && setExpanded(e => !e)}
+      >
+        {sub.title}
+        {sub.speaker && <span className={styles.speakerInline}>, {sub.speaker}</span>}
+        {hasDescription && <span className={styles.chevron}>{expanded ? ' ▲' : ' ▼'}</span>}
+      </div>
+      {sub.subtitle && <div className={styles.subtitle}>{sub.subtitle}</div>}
+      {expanded && <div className={styles.description}>{sub.description}</div>}
+    </div>
+  )
+}
+
 function CompoundItem({ item, now }) {
   const active = isHappeningNow(item, now)
   const label = item.categoryLabel || TYPE_LABELS[item.type]
@@ -68,17 +88,29 @@ function CompoundItem({ item, now }) {
       <div className={styles.content}>
         {label && <div className={styles.compoundLabel}>{label}</div>}
         {item.subItems.map((sub, i) => (
-          <div key={i} className={i > 0 ? styles.subItem : ''}>
-            <div className={styles.itemTitle}>
-              {sub.title}
-              {sub.speaker && <span className={styles.speakerInline}>, {sub.speaker}</span>}
-            </div>
-            {sub.subtitle && <div className={styles.subtitle}>{sub.subtitle}</div>}
-          </div>
+          <CompoundSubItem key={i} sub={sub} isFirst={i === 0} />
         ))}
       </div>
     </div>
   )
+}
+
+function renderDescription(item) {
+  if (item.link && item.linkText && item.description && item.description.includes(item.linkText)) {
+    const parts = item.description.split(item.linkText)
+    return parts.reduce((acc, part, i) => {
+      if (i > 0) {
+        acc.push(
+          <a key={i} href={item.link} target="_blank" rel="noopener noreferrer" className={styles.inlineLink}>
+            {item.linkText}
+          </a>
+        )
+      }
+      acc.push(part)
+      return acc
+    }, [])
+  }
+  return item.description
 }
 
 function ScheduleItem({ item, now }) {
@@ -87,6 +119,7 @@ function ScheduleItem({ item, now }) {
   const hasDescription = !!(item.description || item.link)
   const label = item.categoryLabel || TYPE_LABELS[item.type]
   const showSpeaker = item.speaker && item.speaker !== item.title
+  const inlineLinkUsed = item.link && item.linkText && item.description && item.description.includes(item.linkText)
 
   return (
     <div
@@ -104,8 +137,8 @@ function ScheduleItem({ item, now }) {
         {item.subtitle && <div className={`${styles.subtitle} ${item.subtitleDark ? styles.subtitleDark : ''}`}>{item.subtitle}</div>}
         {expanded && (
           <div className={styles.description}>
-            {item.description}
-            {item.link && (
+            {renderDescription(item)}
+            {item.link && !inlineLinkUsed && (
               <a href={item.link} target="_blank" rel="noopener noreferrer" className={styles.descriptionLink}>
                 {item.linkText || item.link}
               </a>
@@ -169,7 +202,6 @@ export default function Schedule() {
     <div className={styles.wrapper}>
       <div className={styles.page}>
         <Section items={stageItems} now={now} title="Scenprogram" />
-        <p className={styles.comingSoon}>Program för aktiviteter och scen i Vasaparken söndagen 23 augusti kommer inom kort.</p>
       </div>
       <div className={styles.imagePanel} />
     </div>

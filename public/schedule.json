@@ -17,7 +17,8 @@
     "subItems": [
       {
         "title": "Kulning och jojk",
-        "speaker": "Åsa Larsson och Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak",
+        "description": "Åsa (Resmiranda) Larsson och Nik Märak inviger manifestationen med kulning och jojk."
       },
       {
         "title": "Konferencierna hälsar välkomna",
@@ -30,31 +31,32 @@
       },
       {
         "title": "Allsång",
-        "speaker": "Åsa Larsson och Nik Märak"
+        "speaker": "Åsa Larsson och Nik Märak",
+        "description": "Vi sjunger tillsammans! Åsa (Resmiranda) Larsson leder allsången, Nik Märak väver in jojk och Staffan Lindberg kompar på gitarr."
       }
     ]
   },
   {
-    "title": "Framtidsvisioner I",
+    "title": "Johan Jenny Ehrenberg, Catarina Rolfsdotter Jansson, Ingmar Rentzhog",
     "subtitle": null,
-    "speaker": "Johan Jenny Ehrenberg, Catarina Rolfsdotter Jansson och Ingmar Rentzhog",
+    "speaker": "Johan Jenny Ehrenberg, Catarina Rolfsdotter Jansson, Ingmar Rentzhog",
     "location": "Sergels torg",
     "start": "2026-08-22T13:35:00",
     "end": "2026-08-22T13:55:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
-    "description": null
+    "categoryLabel": "FRAMTIDSVISIONER I",
+    "description": "Johan Jenny Ehrenberg, journalist och debattör. Catarina Rolfsdotter Jansson, EU Climate Pact-ambassadör, programledare och producent på We Don’t Have Time, moderator och föreläsare. Ingmar Rentzhog, grundare av We Don’t Have Time."
   },
   {
-    "title": "Framtidsvisioner II: Framtidsmeditation, medborgarråd och presentation av framtidsbyn.",
+    "title": "Framtidsmeditation, Rådslag om ett gott liv och presentation av framtidsbyn.",
     "subtitle": null,
     "speaker": "Maria Österholm",
     "location": "Sergels torg",
     "start": "2026-08-22T14:05:00",
     "end": "2026-08-22T14:30:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
-    "description": "Framtidsmeditation ledd av Maria Österholm, ingenjör och rebellmamma, följt av presentation av medborgarrådet och framtidsbyn."
+    "categoryLabel": "FRAMTIDSVISIONER II",
+    "description": "Framtidsmeditation ledd av Maria Österholm, ingenjör och rebellmamma, följt av presentation av Rådslag om ett gott liv och framtidsbyn."
   },
   {
     "title": "Alla bjuds in att besöka framtidsbyn",
@@ -78,14 +80,14 @@
     "description": null
   },
   {
-    "title": "Framtidsvisioner III",
+    "title": "Fatima Osman Abdalla, Ellen Löfgren",
     "subtitle": null,
     "speaker": "Fatima Osman Abdalla, Ellen Löfgren",
     "location": "Sergels torg",
     "start": "2026-08-22T15:15:00",
     "end": "2026-08-22T15:30:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
+    "categoryLabel": "FRAMTIDSVISIONER III",
     "description": "Fatima Osman Abdalla, medgrundare av The Real Economy, och Ellen Löfgren, Ta Tillbaka Framtiden (TTF), om kampanjen Beskatta superrika."
   },
   {
@@ -129,15 +131,15 @@
     "description": null
   },
   {
-    "title": "Framtidsvisioner IV",
+    "title": "Regan McEnroe, GÅLMUK, Glenn Bark",
     "subtitle": "Hav, mark och framtid",
-    "speaker": "Regan McEnroe, Glenn Bark, Nik Märak",
+    "speaker": "Regan McEnroe, GÅLMUK, Glenn Bark",
     "location": "Sergels torg",
     "start": "2026-08-22T16:35:00",
     "end": "2026-08-22T16:50:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
-    "description": "Regan McEnroe, ordförande Fältbiologerna och blivande marinbiolog. Glenn Bark, malmgeolog och talesperson för Researchers' Desk. Nik Märak, kulturarbetare och lulesame."
+    "categoryLabel": "FRAMTIDSVISIONER IV",
+    "description": "Regan McEnroe, ordförande Fältbiologerna och blivande marinbiolog. GÅLMUK (Nik och Nilla Märak samt riksspelman Anders Hällström) framför Denna jorda, en norsk folksång. Glenn Bark, malmgeolog och talesperson för Researchers' Desk."
   },
   {
     "title": "Vargkvint, Red Rebels",
@@ -184,7 +186,7 @@
     "description": "Olga Grönvall Lund, generalsekreterare Reformaten. Sébastien Boudet, bagare och mataktivist. Tatjana Boric Persson, rebellmamma och initiativtagare till Matupproret. Moderator: Kathrin Thelén."
   },
   {
-    "title": "Knytkalas! Bagaren Sébastien Boudet bidrar med extra bröd.",
+    "title": "Picknick/knytkalas! Bagaren Sébastien Boudet bidrar med extra bröd.",
     "subtitle": null,
     "speaker": null,
     "location": "Sergels torg",
@@ -192,7 +194,7 @@
     "end": "2026-08-22T18:40:00",
     "type": "Culture",
     "categoryLabel": "GEMENSAM MÅLTID",
-    "description": null
+    "description": "Att dela mat med varandra är ett fint sätt att bygga gemenskap och skapa den omtänksamma och hållbara värld vi kämpar för. Bidra gärna med något litet till vår gemensamma måltid som du kan dela med några fler."
   },
   {
     "title": "Stefan Sundström",
@@ -226,14 +228,14 @@
     "description": null
   },
   {
-    "title": "Erfarenheter från medborgarrådet",
+    "title": "Erfarenheter från Rådslag om ett gott liv",
     "subtitle": null,
     "speaker": "Lisa Bydler",
     "location": "Sergels torg",
     "start": "2026-08-22T19:30:00",
     "end": "2026-08-22T19:45:00",
     "type": "Talk",
-    "description": "Lisa Bydler berättar om erfarenheter från medborgarrådsprocessen."
+    "description": "Klimatriksdagen samlar ett gäng mer och mindre kända personer för ett rådslag om ett gott liv. Vad är ett gott liv – för oss, här och nu och i framtiden? Lisa Bydler berättar om erfarenheterna från rådslaget, som dokumenteras och vars insikter presenteras under kvällen och kommande vecka."
   },
   {
     "title": "Tant Grön",
@@ -256,18 +258,18 @@
     "description": "Fredrika Fabri, läkare i geriatrik och aktiv i Hälso- och sjukvårdspersonal för Extinction Rebellion (HSXR)."
   },
   {
-    "title": "Framtidsvisioner V",
+    "title": "Andrew Simms",
     "subtitle": null,
     "speaker": "Andrew Simms",
     "location": "Sergels torg",
     "start": "2026-08-22T20:05:00",
     "end": "2026-08-22T20:15:00",
     "type": "Talk",
-    "categoryLabel": "FRAMTIDSVISIONER",
+    "categoryLabel": "FRAMTIDSVISIONER V",
     "description": "Andrew Simms, medförfattare till The Green New Deal och medgrundare av New Weather Institute."
   },
   {
-    "title": "Ellinor Brolin & Johan Johansson",
+    "title": "Ellinor Brolin, Johan Johansson",
     "subtitle": "Artister",
     "speaker": "Ellinor Brolin, Johan Johansson",
     "location": "Artistscen, Sergels torg",
@@ -318,7 +320,7 @@
   },
   {
     "title": "Vanna Rosenberg",
-    "subtitle": "Skådespelerska och komiker",
+    "subtitle": "Sångerska, skådespelerska och komiker",
     "speaker": "Vanna Rosenberg",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T21:50:00",
@@ -380,9 +382,9 @@
     "description": "Leo Rudberg, klimaträttviseaktivist och statsvetare, om vad människor kan åstadkomma tillsammans."
   },
   {
-    "title": "Majvi Superstar & Lena Granfelt",
+    "title": "Majvi Superstar, Lena Granefelt",
     "subtitle": null,
-    "speaker": null,
+    "speaker": "Majvi Superstar, Lena Granefelt",
     "location": "Artistscen, Sergels torg",
     "start": "2026-08-22T23:10:00",
     "end": "2026-08-22T23:25:00",
@@ -421,7 +423,7 @@
     "end": "2026-08-23T01:45:00",
     "type": "Culture",
     "categoryLabel": "SPEX",
-    "description": null
+    "description": "Några rebellmammor i Östersund var så ledsna över planetens tillstånd att de började göra humor av skiten. Några korta filmer med 0 kronor i budget blev resultatet. Titta och njut!"
   },
   {
     "title": "Emma Axberg",
@@ -454,5 +456,93 @@
     "end": "2026-08-23T05:00:00",
     "type": "Transition",
     "description": "Vi förflyttar oss gemensamt från Sergels torg till Vasaparken för programmet på söndagsmorgonen."
+  },
+  {
+    "type": "Culture",
+    "location": "Vasaparken",
+    "start": "2026-08-23T10:15:00",
+    "end": "2026-08-23T10:30:00",
+    "categoryLabel": "SCENEN ÖPPNAR",
+    "subItems": [
+      { "title": "Konferencierarna öppnar scenen" }
+    ]
+  },
+  {
+    "title": "Kommando Nötskrika",
+    "subtitle": null,
+    "speaker": "Kommando Nötskrika",
+    "location": "Artistscen, Vasaparken",
+    "start": "2026-08-23T10:30:00",
+    "end": "2026-08-23T10:45:00",
+    "type": "Music",
+    "description": "Kommando Nötskrika bildades 2025 i Stockholm och spelar nån sorts vispunk/grunge med poetiska och apokalyptiska texter som handlar om natur, miljö och klimat. Bara egna låtar!"
+  },
+  {
+    "title": "Mattias Goldmann - \"Klimatkampens kinderägg\"",
+    "subtitle": null,
+    "speaker": null,
+    "location": "Vasaparken",
+    "start": "2026-08-23T10:45:00",
+    "end": "2026-08-23T11:00:00",
+    "type": "Talk",
+    "categoryLabel": "TAL",
+    "description": "Mattias Goldmann, lösningsorienterad klimatlobbyist, vill göra omställningen lätt, lustfylld och lönsam - och påminner våra politiker om att vi redan beslutat att förorenaren ska betala. Det är dags nu!"
+  },
+  {
+    "title": "Saga Gärde",
+    "subtitle": null,
+    "speaker": "Saga Gärde",
+    "location": "Vasaparken",
+    "start": "2026-08-23T11:00:00",
+    "end": "2026-08-23T11:05:00",
+    "type": "Culture",
+    "categoryLabel": "POESI",
+    "description": "Skådespelaren och regissören Saga Gärde läser en dikt ur Hedvig Fischers debut från i år, ”Kortsiktig; riktning”."
+  },
+  {
+    "title": "Teatergruppen Kairos",
+    "subtitle": null,
+    "speaker": null,
+    "location": "Vasaparken",
+    "start": "2026-08-23T11:05:00",
+    "end": "2026-08-23T11:25:00",
+    "type": "Music",
+    "description": "Scenkonstföreningen \"Kairos – nu är den rätta tiden\" från Östergötland skapar angelägna föreställningar i kollektiva, konstnärliga processer. Vårt scenprogram genomförs delvis i samarbete med Opera Vildmark från Norrbotten. Vårt motto är Tillsammans är enda sättet.",
+    "link": "https://kairostid.nu",
+    "linkText": "kairostid.nu"
+  },
+  {
+    "title": "Pia Björstrand",
+    "subtitle": null,
+    "speaker": "Pia Björstrand",
+    "location": "Vasaparken",
+    "start": "2026-08-23T11:25:00",
+    "end": "2026-08-23T11:35:00",
+    "type": "Talk",
+    "categoryLabel": "TAL & SÅNG",
+    "description": "Pia Björstrand, ordförande End Ecocide Sweden, försvarsadvokat och rebellmamma."
+  },
+  {
+    "title": "William Grönlund, Rebellpapporna",
+    "subtitle": null,
+    "speaker": "William Grönlund, Rebellpapporna",
+    "location": "Vasaparken",
+    "start": "2026-08-23T11:50:00",
+    "end": "2026-08-23T11:55:00",
+    "type": "Talk",
+    "categoryLabel": "AVSLUTNINGSTAL 24h",
+    "description": "William Grönlund är folkhögskollärare, klimataktivist och djupt oroad förälder. Grundare av \"klimatsjuk\" och var med och organiserade den första 24-timmarssittning i Örebro 2024."
+  },
+  {
+    "title": "Demo-samling",
+    "subtitle": null,
+    "speaker": "Caroline af Ugglas",
+    "location": "Vasaparken",
+    "start": "2026-08-23T12:00:00",
+    "end": "2026-08-23T12:20:00",
+    "type": "Culture",
+    "description": "Caroline af Ugglas med kör. 24 timmar för klimatet går in i Den stora klimatdemonstrationen.",
+    "link": "https://www.naturskyddsforeningen.se/kampanj/den-stora-klimatdemonstrationen/",
+    "linkText": "Den stora klimatdemonstrationen"
   }
 ]
